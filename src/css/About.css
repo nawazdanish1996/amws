@@ -1,0 +1,11 @@
+/* #about{
+    background: #00F260;
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  
+background: linear-gradient(to right, #0575E6, #00F260); 
+
+} */
+
+.abt li{
+    margin-top: -20px;
+    margin-left: 50px;
+}

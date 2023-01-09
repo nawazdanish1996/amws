@@ -1,0 +1,22 @@
+#Redirect{
+    position: fixed;
+    width: 100%;
+    top: 90%;
+    left: 42%;
+}
+
+#Redirect i{
+    font-size: 20px;
+    /* border: 1px solid gray; */
+    background-color: rgb(215, 44, 72);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#Redirect i:hover{
+  background-color: rgb(211, 60, 85);
+}
+#Redirect i:active{
+  background-color: black;
+}

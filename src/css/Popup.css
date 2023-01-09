@@ -1,0 +1,53 @@
+.grid-wrapp{
+    position: relative;
+    min-height: 100vh;
+    background: #16a085;
+}
+
+.popup-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: block;
+    padding-top: 5%;
+}
+
+.popup-image-dup{
+    display: none;
+}
+
+.grid-wrap .popup-image span{
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.grid-wrap .popup-image span:hover{
+    color: red;
+}
+
+.grid-wrap .popup-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+    /* .grid-wrap .popup-image img{
+        width: 95%;
+    } */
+}

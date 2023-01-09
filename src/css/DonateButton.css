@@ -1,0 +1,17 @@
+#donate-button{
+    position: fixed;
+    top: 60%;
+    left: .2%;
+}
+
+#donate-button span{
+    animation: changeColor 12s infinite linear;
+}
+
+@keyframes changeColor{
+
+    0%{color: white;}
+    25%{color: yellow;}
+    50%{color: white;}
+    75%{color: yellow;}
+}
