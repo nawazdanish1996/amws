@@ -3,7 +3,7 @@
 
 
 ## 🚀 About Me
-I'm a full stack developer with hands on experience in MongoDB, Express, React, and Node
+I'm a full-stack Web developer with hands on experience in MongoDB, Express, React, and Node
 
 
 ## 🔗 Links
