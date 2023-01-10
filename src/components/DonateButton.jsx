@@ -28,7 +28,7 @@ const DonateButton = () => {
                     </div>
                     <p>....@ybl</p>
                     <br />
-                    <img src="..." alt="BarCode" />
+                    <img loading='lazy' src="..." alt="BarCode" />
                     <br />
                     <br />
                     <div className="bankDetails">
