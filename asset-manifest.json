@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c11a8acf.css",
-    "main.js": "/static/js/main.c4842e6e.js",
+    "main.css": "/static/css/main.48d96555.css",
+    "main.js": "/static/js/main.6295e05b.js",
     "static/js/845.3c9bd8c4.chunk.js": "/static/js/845.3c9bd8c4.chunk.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/3.jpg": "/static/media/3.489feb7381ce429150da.jpg",
@@ -15,18 +15,20 @@
     "static/media/2.jfif": "/static/media/2.98e56e064f79b87179f0.jfif",
     "static/media/1.jpeg": "/static/media/1.82b59bfb377f72907f11.jpeg",
     "static/media/9.jfif": "/static/media/9.e0d5d33b1538fe410238.jfif",
+    "static/media/upi.png": "/static/media/upi.2262dbdb6b1449fc0a76.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.d026940870fb334920b7.png",
     "static/media/success_sound.mp3": "/static/media/success_sound.a4aa05a5f146d082d6be.mp3",
+    "static/media/google-pay.png": "/static/media/google-pay.f6875d0f4df6e0ae4a6d.png",
     "static/media/facebook.png": "/static/media/facebook.a5def58db1e9c1b38269.png",
     "static/media/error_sound.mp3": "/static/media/error_sound.99810f37158157c80826.mp3",
     "index.html": "/index.html",
-    "main.c11a8acf.css.map": "/static/css/main.c11a8acf.css.map",
-    "main.c4842e6e.js.map": "/static/js/main.c4842e6e.js.map",
+    "main.48d96555.css.map": "/static/css/main.48d96555.css.map",
+    "main.6295e05b.js.map": "/static/js/main.6295e05b.js.map",
     "845.3c9bd8c4.chunk.js.map": "/static/js/845.3c9bd8c4.chunk.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c11a8acf.css",
-    "static/js/main.c4842e6e.js"
+    "static/css/main.48d96555.css",
+    "static/js/main.6295e05b.js"
   ]
 }
