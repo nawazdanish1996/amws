@@ -7,8 +7,8 @@ const TopMarquee = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 p-2">
-                    <Marquee speed={30} delay={3} direction="left" >
-                        <h4 className='text-primary'>Al-Madad Welfare Society - Helpline Number 8759531848</h4>
+                    <Marquee gradient={false} speed={30} delay={3} direction="left" type={String} >
+                        <h6 className='text-white'>Goalpokher Al-Madad Welfare Society</h6>
                     </Marquee>
                 </div>
             </div>

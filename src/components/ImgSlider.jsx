@@ -16,7 +16,7 @@ const ImgSlider = () => {
         <div className="row">
             <div className="col-md-3 p-md-2 mb-sm-3 mb-xs-3">
                 <h5 style={{fontFamily: "cursive"}}>How do you want to help to the <span className='text-primary fw-bold'>needy people</span>.</h5>
-                <p className='mt-md-3 mb-md-3' style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
+                <p className='mt-md-2 mb-md-3' style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
                 <DonateButton />
             </div>
             <div className='col-md-6 rounded mx-auto d-none d-xl-block d-lg-block d-md-block'>
@@ -60,12 +60,14 @@ const ImgSlider = () => {
                 </div>
             </div>
 
-            <div className="col-md-3">
-                <h4 className='text-primary text-decoration-underline'>Helpline Numbers</h4>
-                <h6 className='text-success mt-4'>Md. Nurul Absar</h6>
-                <p className=' fw-bold '>+91-9614416523</p>
-                <h6 className='text-success mt-4'>Md. Nurul Absar</h6>
-                <p className=' fw-bold '>+91-9614416523</p>
+            <div className="col-md-3 mt-3">
+                <h4 className='text-primary text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Numbers</h4>
+                <h6 className='text-success mt-3'>Md. Nurul Absar</h6>
+                <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
+                <h6 className='text-success mt-3'>Md. Nurul Absar</h6>
+                <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
+                <h6 className='text-success mt-3'>Md. Nurul Absar</h6>
+                <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
             </div>
         </div>
     </div>

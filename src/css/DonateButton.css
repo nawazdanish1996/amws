@@ -5,6 +5,7 @@
   outline: none;
   color: rgb(255, 255, 255);
   background: #111;
+  /* background-color: rgb(249, 105, 14); */
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -12,10 +13,6 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-}
-
-.buttonDonate:hover{
-  background-color: #002bff;
 }
 
 .buttonDonate:before {

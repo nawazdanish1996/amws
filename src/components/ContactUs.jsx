@@ -30,9 +30,9 @@ const ContactUs = () => {
     }
     else{
       swal("Sent", "I will get back to you as soon as possible", "success"); 
-      // setName("");
-      // setMobNo("");
-      // setMsg("");
+      setName("");
+      setMobNo("");
+      setMsg("");
       emailjs.sendForm(
         "service_67n7jzu",
         "template_956rcdy",
@@ -52,7 +52,7 @@ const ContactUs = () => {
   },[])
 
   return (
-    <div id='contact' className='bg-warning' data-aos="fade-up" >
+    <div id='contact' data-aos="fade-up" >
       <div className="container p-4">
         <div className="row">
           <div className="col-md-12 mb-md-3">
@@ -71,7 +71,8 @@ const ContactUs = () => {
           </div>
 
           <div className="col-md-4">
-                  <p className='mt-md-5'>Office Address</p>
+                  <h6 className='text-uppercase text-decoration-underline'>Office Address</h6>
+                  <br />
                   <p>Lodhan Chowk, Goalpokher</p>
                   <p>Uttar Dinajpur, West Bengal</p>
                   <p>733210</p>
@@ -80,7 +81,7 @@ const ContactUs = () => {
           <div className="col-md-4">
             <h6 className='text-uppercase text-decoration-underline'>Contact Us</h6>
 
-            <form>
+            <form ref={form}>
               <div className='form-group'>
                 <input onChange={(e)=> setName(e.target.value)} value={name} aria-describedby="mobileHelp" name='name' className='input-group-text mb-1 text-center w-100' type="text" placeholder='Name' />
                 <input onChange={(e)=> setMobNo(e.target.value)} value={mobNo} className='input-group-text mb-1 text-center w-100' name='mobno' type="number" placeholder='Mobile Number' />
