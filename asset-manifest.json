@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22fc5af6.css",
+    "main.js": "/static/js/main.66b526a4.js",
+    "static/js/845.3c9bd8c4.chunk.js": "/static/js/845.3c9bd8c4.chunk.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/3.jpg": "/static/media/3.489feb7381ce429150da.jpg",
+    "static/media/logo.png": "/static/media/logo.c95336dd26adf477620e.png",
+    "static/media/8.jfif": "/static/media/8.37dfc627be7a22dfe421.jfif",
+    "static/media/4.jfif": "/static/media/4.32479be43d33e2096e76.jfif",
+    "static/media/7.jfif": "/static/media/7.361900e9e8bb5578d1c0.jfif",
+    "static/media/6.jfif": "/static/media/6.30a24598c097aee5afb3.jfif",
+    "static/media/5.jfif": "/static/media/5.993657725ec78a51772d.jfif",
+    "static/media/3.jfif": "/static/media/3.3e7e76c1f3b6db394599.jfif",
+    "static/media/2.jfif": "/static/media/2.98e56e064f79b87179f0.jfif",
+    "static/media/1.jpeg": "/static/media/1.82b59bfb377f72907f11.jpeg",
+    "static/media/9.jfif": "/static/media/9.e0d5d33b1538fe410238.jfif",
+    "static/media/whatsapp.png": "/static/media/whatsapp.d026940870fb334920b7.png",
+    "static/media/success_sound.mp3": "/static/media/success_sound.a4aa05a5f146d082d6be.mp3",
+    "static/media/facebook.png": "/static/media/facebook.a5def58db1e9c1b38269.png",
+    "static/media/error_sound.mp3": "/static/media/error_sound.99810f37158157c80826.mp3",
+    "index.html": "/index.html",
+    "main.22fc5af6.css.map": "/static/css/main.22fc5af6.css.map",
+    "main.66b526a4.js.map": "/static/js/main.66b526a4.js.map",
+    "845.3c9bd8c4.chunk.js.map": "/static/js/845.3c9bd8c4.chunk.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22fc5af6.css",
+    "static/js/main.66b526a4.js"
+  ]
+}
