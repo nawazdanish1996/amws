@@ -14,16 +14,21 @@ import SocialMedia from './components/SocialMedia';
 import UnderConstruction from './components/UnderConstruction';
 // import Popup from './components/Popup';
 
+import useSound from 'use-sound';
+import bgSound from "./sound/visitorSound.mpeg";
 
 function App() {
   let [loading, setLoading] = useState(true);
+  const [plays] = useSound(bgSound);
 
   useEffect(()=>{
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 7000)
-  }, [])
+    }, 7000);
+
+    return plays();
+  }, [plays])
 
   return (
     <div>

@@ -20,14 +20,13 @@ const ContactUs = () => {
   
   const submitHandler = (e) =>{
     e.preventDefault();
-    if(name ===  "" || !isNaN(name)){
+    if(name ===  "" || !isNaN(name) || name.length < 4){
       swal("Oops!", "Wrong Name Input", "error");
       return play();
     }else if(mobNo === "" || isNaN(mobNo) || mobNo.length < 10 || mobNo.length > 10 ){
       swal("Oops!", "Mobile Number must be 10 digit", "error");
       return play();
-    }
-    else if(msg.length < 10){
+    }else if(msg.length < 10){
       swal("Oops!", "Subject is less than ten words", "error");
       return play();
     }
