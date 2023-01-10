@@ -15,11 +15,11 @@ import UnderConstruction from './components/UnderConstruction';
 // import Popup from './components/Popup';
 
 import useSound from 'use-sound';
-import bgSound from "./sound/visitorSound.mpeg";
+import snd from "./sound/visitorSound.mpeg";
 
 function App() {
   let [loading, setLoading] = useState(true);
-  const [plays] = useSound(bgSound);
+  const [plays] = useSound(snd);
 
   useEffect(()=>{
     setLoading(true);
