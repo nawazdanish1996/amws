@@ -12,7 +12,7 @@ function Footer() {
               <br />
               <small>All Rights Reserved by <span className='text-success h6'>Al-Madad Welfare Society</span></small>
               <br />
-              <small>Developed By: <a className='text-decoration-none' href="https://github.com/nawazdanish1996" target="blank">Nawaz Danish</a></small>
+              {/* <small>Developed By: <a className='text-decoration-none' href="https://github.com/nawazdanish1996" target="blank">Nawaz Danish</a></small> */}
           </div>
 
         </div>
