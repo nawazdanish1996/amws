@@ -5,7 +5,9 @@ import Iframe from 'react-iframe'
 import useSound from 'use-sound';
 import boopSfx from "../sound/error_sound.mp3";
 import successSound from "../sound/success_sound.mp3";
+import clearSound from "../sound/clear_sound.mp3";
 import emailjs from "@emailjs/browser";
+// import validator from 'validator' ;
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -13,15 +15,16 @@ const ContactUs = () => {
   const [msg, setMsg] = useState("");
   const [play] = useSound(boopSfx);
   const [sucSound] = useSound(successSound);
+  const [clrSound] = useSound(clearSound);
   const form = useRef();
   
   const submitHandler = (e) =>{
     e.preventDefault();
-    if(name ===  ""){
+    if(name ===  "" || !isNaN(name)){
       swal("Oops!", "Wrong Name Input", "error");
       return play();
-    }else if(mobNo === "" || mobNo.length < 10 || mobNo.length > 10){
-      swal("Oops!", "Wrong Mobile Number Input", "error");
+    }else if(mobNo === "" || isNaN(mobNo) || mobNo.length < 10 || mobNo.length > 10 ){
+      swal("Oops!", "Mobile Number must be 10 digit", "error");
       return play();
     }
     else if(msg.length < 10){
@@ -47,6 +50,13 @@ const ContactUs = () => {
     }
   }
 
+  const clearHandler = () =>{
+    setName("");
+    setMobNo("");
+    setMsg("");
+    return clrSound();
+  }
+
   useEffect(()=>{
     Aos.init({duration: 2000});
   },[])
@@ -66,7 +76,7 @@ const ContactUs = () => {
               display="block"
               loading="lazy" 
               position="relative"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
               />
           </div>
 
@@ -84,14 +94,14 @@ const ContactUs = () => {
             <form ref={form}>
               <div className='form-group'>
                 <input onChange={(e)=> setName(e.target.value)} value={name} aria-describedby="mobileHelp" name='name' className='input-group-text mb-1 text-center w-100' type="text" placeholder='Name' />
-                <input onChange={(e)=> setMobNo(e.target.value)} value={mobNo} className='input-group-text mb-1 text-center w-100' name='mobno' type="number" placeholder='Mobile Number' />
+                <input onChange={(e)=> setMobNo(e.target.value)} value={mobNo} className='input-group-text mb-1 text-center w-100' name='mobno' type="text" placeholder='Mobile Number' />
               </div>
               <div>
                 <textarea onChange={(e)=> setMsg(e.target.value)} value={msg} className='input-group-text w-100 mb-1' style={{resize: "none"}} name="message" placeholder='Message...' cols="30" rows="5"></textarea>
-                <small id="mobileHelp" class="form-text text-muted">We'll never share your data with anyone else.</small>
+                <small id="mobileHelp" className="form-text text-muted">We'll never share your data with anyone else.</small>
               </div>
               <button onClick={submitHandler} className='btn btn-success' type="submit">Submit</button>
-              <button className='btn btn-success ms-2' type="reset">Reset</button>
+              <button onClick={clearHandler} className='btn btn-success ms-2' type="reset">Reset</button>
             </form>
           </div>
 

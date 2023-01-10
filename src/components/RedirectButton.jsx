@@ -5,7 +5,7 @@ function RedirectButton() {
   return (
     <div id='Redirect'>
       <a href="#navbarss">
-      <i class="fa-solid fa-arrow-up"></i>
+      <i className="fa-solid fa-arrow-up"></i>
       </a>
     </div>
   )

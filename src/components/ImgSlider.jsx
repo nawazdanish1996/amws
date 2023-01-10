@@ -31,7 +31,7 @@ const ImgSlider = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={first} className="d-block w-100" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Im Nawaz Danish</h5>
                                 <p>olodhn</p>
                             </div>
