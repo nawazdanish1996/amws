@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import Aos from 'aos';
 import swal from 'sweetalert';
 import Iframe from 'react-iframe'
 import useSound from 'use-sound';
 import boopSfx from "../sound/error_sound.mp3";
 import successSound from "../sound/success_sound.mp3";
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -13,6 +13,7 @@ const ContactUs = () => {
   const [msg, setMsg] = useState("");
   const [play] = useSound(boopSfx);
   const [sucSound] = useSound(successSound);
+  const form = useRef();
   
   const submitHandler = (e) =>{
     e.preventDefault();
@@ -29,9 +30,19 @@ const ContactUs = () => {
     }
     else{
       swal("Sent", "I will get back to you as soon as possible", "success"); 
-      setName("");
-      setMobNo("");
-      setMsg("");
+      // setName("");
+      // setMobNo("");
+      // setMsg("");
+      emailjs.sendForm(
+        "service_67n7jzu",
+        "template_956rcdy",
+        form.current,
+        "uoSXOBxWQ6AHTdEyU"
+      ).then((result)=>{
+        console.log(result.text);
+      },(err)=>{
+        console.log(err.text);
+      });
       return sucSound();
     }
   }
@@ -60,7 +71,10 @@ const ContactUs = () => {
           </div>
 
           <div className="col-md-4">
-            <h6>Address</h6>
+                  <p className='mt-md-5'>Office Address</p>
+                  <p>Lodhan Chowk, Goalpokher</p>
+                  <p>Uttar Dinajpur, West Bengal</p>
+                  <p>733210</p>
           </div>
 
           <div className="col-md-4">
@@ -68,7 +82,7 @@ const ContactUs = () => {
 
             <form>
               <div className='form-group'>
-                <input onChange={(e)=> setName(e.target.value)} value={name} aria-describedby="mobileHelp" className='input-group-text mb-1 text-center w-100' type="text" placeholder='Name' />
+                <input onChange={(e)=> setName(e.target.value)} value={name} aria-describedby="mobileHelp" name='name' className='input-group-text mb-1 text-center w-100' type="text" placeholder='Name' />
                 <input onChange={(e)=> setMobNo(e.target.value)} value={mobNo} className='input-group-text mb-1 text-center w-100' name='mobno' type="number" placeholder='Mobile Number' />
               </div>
               <div>

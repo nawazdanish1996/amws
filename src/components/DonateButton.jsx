@@ -10,8 +10,9 @@ const DonateButton = () => {
     
   return (
     <div id='donate-button' style={{zIndex: 999}}>
+        {/* <div className="button-85">Mister</div> */}
 
-        <button onClick={() => setModal(true)} className="btn btn-danger text-white fw-bolder">
+        <button className='buttonDonate' onClick={() => setModal(true)}>
             Donate Now
         </button>
         <Modal isOpen={modal} toggle={() => setModal(!modal)}>

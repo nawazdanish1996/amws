@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import first from "../img/3.jpg"
+import first from "../img/3.jpg";
+import DonateButton from "./DonateButton";
 
 const ImgSlider = () => {
 
@@ -13,9 +14,10 @@ const ImgSlider = () => {
     <div id='imgslider' data-aos="fade-up">
     <div className="container">
         <div className="row">
-            <div className="col-md-3">
-                <h3 style={{fontFamily: "cursive"}}>How do you want to help to the <span className='text-primary fw-bold'>needy people</span>.</h3>
-                <p style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
+            <div className="col-md-3 p-md-2 mb-sm-3 mb-xs-3">
+                <h5 style={{fontFamily: "cursive"}}>How do you want to help to the <span className='text-primary fw-bold'>needy people</span>.</h5>
+                <p className='mt-md-3 mb-md-3' style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
+                <DonateButton />
             </div>
             <div className='col-md-6 rounded mx-auto d-none d-xl-block d-lg-block d-md-block'>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">

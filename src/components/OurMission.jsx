@@ -9,7 +9,7 @@ const OurMission = () => {
 
   return (
     <div id="mission" data-aos="fade-up">
-      <div className="container mb-3 mt-md-3">
+      <div className="container mb-3 mt-md-1">
         <div className="row">
           <div className="col-md-12">
             <h2

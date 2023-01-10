@@ -6,7 +6,6 @@ import NavBars from './components/NavBars';
 import RedirectButton from './components/RedirectButton';
 import ImgSlider from "./components/ImgSlider";
 import TopMarquee from './components/TopMarquee';
-import DonateButton from './components/DonateButton';
 import About from './components/About';
 import OurMission from './components/OurMission';
 import ContactUs from "./components/ContactUs";
@@ -37,7 +36,6 @@ function App() {
         <div className="App">
           <UnderConstruction />
           <NavBars />
-          <DonateButton />
           {/* <Popup /> */}
           <TopMarquee />
           <ImgSlider />

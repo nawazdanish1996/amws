@@ -11,7 +11,7 @@ const About = () => {
     <div id="about" data-aos="fade-up">
       <div className="container">
         <div className="row">
-          <div className="col-md-12 mt-md-3 abt">
+          <div className="col-md-12 mt-md-1 abt">
             <h2
               style={{ fontFamily: "cursive" }}
               className=" pt-3 pb-2 text-decoration-underline"
@@ -19,22 +19,19 @@ const About = () => {
               About Us
             </h2>
             <p style={{textAlign: "justify"}}>
-              <span className="text-success fw-bolder">Al-Madad Welfare Society</span> is a non-political, non-profit organisation committed to help the needy people. <span>Al-Madad Welfare Society</span> began in October 2020 in a
-              remote village in Mukhtar Bhita in the Uttar Dinajpur District, West Bengal. Its
+              <span className="text-success fw-bolder">Goalpokher Al-Madad Welfare Society</span> is a non-political, non-profit organisation committed to help the needy people. <span>Gaolpokher Al-Madad Welfare Society</span> began in October 2020 in a
+              remote village in Mukhtar Bhita in the Uttar Dinajpur District, West Bengal. It was registered under The West Bengal Societies Registration Act, 1961 and Its
               office is now located at Lodhan Chowk, Goalpokher, Uttar Dinajpur, West Bengal.
-              <span>&nbsp; Al-Madad Welfare Society</span> is now working in over 30 villages.
+              <span> Gaolpokher Al-Madad Welfare Society</span> is now working in over 30 villages.
             </p>
 
-            <p className="float-start">The major focus areas for <span className="text-success fw-bolder">Al-Madad Welfare Society</span> are:</p>
-            <br />
-            <br />
-            <li className="float-start">To help poor and needy people.</li>
-            <br />
-            <li className="float-start">To provide food and clothing for helpless orphans and windows of society.</li>
-            <br />
-            <li className="float-start">To provide education poor children.</li>
-            <br />
-            <li className="float-start">To get poor girls married</li>
+            <p className="text-start">The major focus areas for <span className="text-success fw-bolder">Al-Madad Welfare Society</span> are:</p>
+            <div className="text-start ms-md-5" id="para">
+              <p>1. To help poor and needy people.</p>
+              <p>2. To provide food and clothing for helpless orphans and windows of society.</p>
+              <p>3. To provide education poor children.</p>
+              <p>4. To get poor girls married</p>
+            </div>
 
           </div>
         </div>
