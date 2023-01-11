@@ -72,3 +72,13 @@
   margin-top:  -30px;
   font-size: 15px;
 }
+
+#upi{
+  font-size: 16px;
+}
+
+@media (max-width: 463px){
+  #upi{
+    font-size: 12px;
+  }
+}

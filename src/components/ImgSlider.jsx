@@ -62,12 +62,12 @@ const ImgSlider = () => {
 
             <div className="col-md-3 mt-3">
                 <h4 className='text-primary text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Numbers</h4>
-                <h6 className='text-success mt-3'>Md. Nurul Absar</h6>
+                <h6 className='text-success mt-3'>Md. Nurul Huda</h6>
                 <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
-                <h6 className='text-success mt-3'>Md. Nurul Absar</h6>
-                <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
-                <h6 className='text-success mt-3'>Md. Nurul Absar</h6>
-                <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
+                <h6 className='text-success mt-3'>Mohd. Zeeshan Ahmed</h6>
+                <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-6296863789</p>
+                <h6 className='text-success mt-3'>Nisar Ahmad Noor</h6>
+                <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p>
             </div>
         </div>
     </div>

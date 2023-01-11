@@ -12,7 +12,7 @@ import Gallery from './components/Gallery';
 import SocialMedia from './components/SocialMedia';
 import UnderConstruction from './components/UnderConstruction';
 import { SyncLoader } from "react-spinners";
-import Popup from './components/Popup';
+// import Popup from './components/Popup';
 
 import useSound from 'use-sound';
 import snd from "./sound/visitorSound.mpeg";
@@ -43,7 +43,7 @@ function App() {
         <div className="App">
           <NavBars />
           <UnderConstruction />
-          <Popup />
+          {/* <Popup /> */}
           <TopMarquee />
           <ImgSlider />
           <About />

@@ -1,38 +1,52 @@
 import React from 'react';
-import img1 from "../img/TeamMembers/1.jpg";
+import img1 from "../img/TeamMembers/1.jfif";
+import img2 from "../img/TeamMembers/2.jpg";
+import img3 from "../img/TeamMembers/3.jpg";
 import "../css/MeetTheTeam.css";
 
 const MeetTheTeam = () => {
     const TeamData = [
         {
             sl: 1,
-            name: "Master Absar",
+            name: "Md. Zeeshan Ahmad",
             imgSrc: img1,
-            post: "Director"
+            post: "President"
         },
         {
             sl: 2,
-            name: "Guddu",
-            imgSrc: img1,
-            post: "Cashieeeeeeeeer"
+            name: "Md. Nurul Huda",
+            imgSrc: img2,
+            post: "Treasurer"
         },
         {
             sl: 3,
-            name: "Gudda",
-            imgSrc: img1,
-            post: "Director"
+            name: "Nisar Ahmad Noor",
+            imgSrc: img3,
+            post: "Secretary"
         },
         {
             sl: 4,
-            name: "Demo Names",
-            imgSrc: img1,
-            post: "Director"
+            name: "Md. Maroof Alam",
+            imgSrc: img3,
+            post: "Assit. Secretary"
         },
         {
-            sl: 4,
-            name: "Demo Names",
-            imgSrc: img1,
-            post: "Director"
+            sl: 5,
+            name: "Arman",
+            imgSrc: img3,
+            post: "Voice President"
+        },
+        {
+            sl: 6,
+            name: "Arif Ahmed",
+            imgSrc: img3,
+            post: "Secretary"
+        },
+        {
+            sl: 7,
+            name: "Raja",
+            imgSrc: img3,
+            post: "Secretary"
         },
 
     ];

@@ -5,6 +5,7 @@ import img1 from "../img/paymentIcons/google-pay.png"
 import img2 from "../img/paymentIcons/phonepe-logo-icon.png"
 import img3 from "../img/paymentIcons/paytm-icon.png"
 import img4 from "../img/paymentIcons/upi.png"
+import barCode from "../img/barcode.jfif"
 
 
 const DonateButton = () => {
@@ -20,27 +21,27 @@ const DonateButton = () => {
         <Modal isOpen={modal} toggle={() => setModal(!modal)}>
             <ModalHeader toggle={() => setModal(!modal)}>
                 <div style={{textAlign: "center"}}>
+                    <p style={{color: "green"}}>Goalpokher Al Madad Welfare Society</p>
                     <div>
                        <img style={{width: "40px", marginLeft: "10px"}} src={img1} alt="" />
                        <img style={{width: "30px", marginLeft: "10px"}} src={img2} alt="" />
                        <img style={{width: "40px", marginLeft: "10px"}} src={img3} alt="" />
                        <img style={{width: "40px", marginLeft: "10px"}} src={img4} alt="" />
                     </div>
-                    <p>....@ybl</p>
-                    <br />
-                    <img loading='lazy' src="..." alt="BarCode" />
+                    <p id="upi" style={{color: "black", marginTop: "-2px"}}>UPI ID: goalpokheralmadadwel.62402634@hdfcbank</p>
+                    <img style={{width: "50%", marginTop: "-10px"}} loading='lazy' src={barCode} alt="BarCode" />
                     <br />
                     <br />
                     <div className="bankDetails">
-                        <h6 style={{color: "green"}}>SBI Bank Account Details</h6>
+                        <h6 style={{color: "green"}}>HDFC Bank Account Details</h6>
                         <br />
-                        <small>Name: xxxxxxxxxx</small>
+                        <small style={{color: "black"}}>Name: Goalpokher Al Madad Welfare Society</small>
                         <br />
-                        <small>Bank Account No: xxxxxxxxx</small>
+                        <small style={{color: "black"}}>Bank Account No: 50200055378172</small>
                         <br />
-                        <small>IFSC : SBIN0007713</small>
+                        <small style={{color: "black"}}>IFSC : HDFC0002747</small>
                         <br />
-                        <small>Branch Nane: Lodhan Village Branch</small>
+                        <small style={{color: "black"}}>Branch Nane: ISLAMPUR</small>
                     </div>
                 </div>
             </ModalHeader>

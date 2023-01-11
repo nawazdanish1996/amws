@@ -32,7 +32,7 @@ function NavBars() {
         <div>
         {/* sticky="top" */}
         {/* style={{position: "sticky", top: 0}} */}
-            <Navbar id="nav" bg="dark" variant="dark"
+            <Navbar sticky="top" bg="dark" variant="dark"
              expand="md" collapseOnSelect>
             <Navbar.Brand className='ms-5'>
                 <a href="/" className='text-decoration-none d-flex '>
