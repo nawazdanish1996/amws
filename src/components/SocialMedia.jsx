@@ -10,7 +10,7 @@ const SocialMedia = () => {
         <a href="https://www.facebook.com/GoalpokherAlMadadWelfareSociety" target="blank">
             <img src={fbImg} loading="lazy" alt="Facebook" />
         </a>
-        <a href="true" target="blank">
+        <a href="https://chat.whatsapp.com/FDh9eTo0dyF1YPgXRHQ1hb" target="blank">
             <img src={waImg} loading="lazy" alt="What's App" />
         </a>
         <a href="true" target="blank">
