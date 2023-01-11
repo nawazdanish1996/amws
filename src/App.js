@@ -1,7 +1,6 @@
 import './App.css';
 import React, {useEffect, useState} from "react";
 import Footer from './components/Footer';
-import { HashLoader } from "react-spinners";
 import NavBars from './components/NavBars';
 import RedirectButton from './components/RedirectButton';
 import ImgSlider from "./components/ImgSlider";
@@ -12,20 +11,21 @@ import ContactUs from "./components/ContactUs";
 import Gallery from './components/Gallery';
 import SocialMedia from './components/SocialMedia';
 import UnderConstruction from './components/UnderConstruction';
-// import Popup from './components/Popup';
+import { SyncLoader } from "react-spinners";
+import Popup from './components/Popup';
 
 import useSound from 'use-sound';
 import snd from "./sound/visitorSound.mpeg";
 
 function App() {
-  let [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
   const [plays] = useSound(snd);
 
   useEffect(()=>{
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 7000);
+    }, 12000);
 
     return plays();
   }, [plays])
@@ -35,13 +35,14 @@ function App() {
       {
         loading ?
         <div id='loader'>
-          <HashLoader color={"black"} loading={loading} size={70} />
+          <h5>Al-Madad Welfare Society</h5>
+          <SyncLoader color={"#282c34"} loading={loading} size={10} />
         </div>
       :
         <div className="App">
           <UnderConstruction />
           <NavBars />
-          {/* <Popup /> */}
+          <Popup />
           <TopMarquee />
           <ImgSlider />
           <About />

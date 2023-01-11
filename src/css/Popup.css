@@ -20,34 +20,19 @@
     display: none;
 }
 
-.grid-wrap .popup-image span{
+.grid-wrap .popup-image .main{
+    border: 5px ridge orange;
     position: absolute;
-    top: 10%;
-    right: 10px;
-    font-size: 40px;
-    font-weight: bold;
-    color: aqua;
+    top: 30%;
     cursor: pointer;
-    z-index: 100;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.grid-wrap .popup-image span:hover{
-    color: red;
-}
-
-.grid-wrap .popup-image img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 5px solid white;
-    border-radius: 5px;
-    width: 300px;
-    object-fit: cover;
-}
-
-@media (max-width: 768px){
-    /* .grid-wrap .popup-image img{
-        width: 95%;
-    } */
-}
+/* .grid-wrap .popup-image .main:hover{
+    color: black;
+    background-color: white;
+} */

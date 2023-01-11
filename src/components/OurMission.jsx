@@ -23,21 +23,21 @@ const OurMission = () => {
           <div className="col-md-4 p-2">
             <div className="box pt-3 pb-3 p-4">
               {/* <h4>Main</h4> */}
-              <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, eum! Excepturi nisi quod optio ab officiis explicabo molestias fugit nobis commodi voluptate consequuntur iusto, voluptates earum perferendis voluptas dolorem labore quo debitis asperiores inventore ad. Cupiditate, in officiis sapiente totam omnis voluptates magnam, est nulla quod laborum nihil corrupti culpa?</p>
+              <p className="mt-3">Our committee members are the unsung heroes of society, using their passion and resources to create positive change where government alone cannot reach.</p>
             </div>
           </div>
 
           <div className="col-md-4 p-2">
             <div className="box pt-3 pb-3 p-4">
               {/* <h4>Main</h4> */}
-              <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, eum! Excepturi nisi quod optio ab officiis explicabo molestias fugit nobis commodi voluptate consequuntur iusto, voluptates earum perferendis voluptas dolorem labore quo debitis asperiores inventore ad. Cupiditate, in officiis sapiente totam omnis voluptates magnam, est nulla quod laborum nihil corrupti culpa?</p>
+              <p className="mt-3">Our committee members are the unsung heroes of society, using their passion and resources to create positive change where government alone cannot reach.</p>
             </div>
           </div>
           
           <div className="col-md-4 p-2">
             <div className="box pt-3 pb-3 p-4">
               {/* <h4>Main</h4> */}
-              <p className="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, eum! Excepturi nisi quod optio ab officiis explicabo molestias fugit nobis commodi voluptate consequuntur iusto, voluptates earum perferendis voluptas dolorem labore quo debitis asperiores inventore ad. Cupiditate, in officiis sapiente totam omnis voluptates magnam, est nulla quod laborum nihil corrupti culpa?</p>
+              <p className="mt-3">Our committee members are the unsung heroes of society, using their passion and resources to create positive change where government alone cannot reach.</p>
             </div>
           </div>
 
