@@ -32,7 +32,15 @@
     padding-right: 10%;
 }
 
-/* .grid-wrap .popup-image .main:hover{
-    color: black;
-    background-color: white;
-} */
+.grid-wrap .popup-image .main:hover{
+    background-color: #192a56;
+}
+
+.main span{
+    animation: glowing-button 20s linear infinite;
+}
+
+@keyframes glowing-button {
+  0% {color: red;}
+  50% {color: green;}
+}
