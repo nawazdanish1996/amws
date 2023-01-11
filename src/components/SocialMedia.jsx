@@ -1,12 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from 'aos';
 import "../css/SocialMedia.css";
 import fbImg from "../img/socialMediaIcons/facebook.png";
 import waImg from "../img/socialMediaIcons/whatsapp.png";
 import ytImg from "../img/socialMediaIcons/youtube.png";
 
 const SocialMedia = () => {
+
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  },[])
+
   return (
-    <div id='socialMedida'>
+    <div id='socialMedida' data-aos="fade-left">
         <a href="https://www.facebook.com/GoalpokherAlMadadWelfareSociety" target="blank">
             <img src={fbImg} loading="lazy" alt="Facebook" />
         </a>

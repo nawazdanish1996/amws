@@ -62,7 +62,7 @@ const ContactUs = () => {
 
   return (
     <div id='contact' >
-      <div className="container p-4">
+      <div className="container p-4" data-aos="fade-left">
         <div className="row">
           <div className="col-md-12 mb-md-3">
             <h2 style={{fontFamily: "cursive"}} className='text-decoration-underline'>Contact Us</h2>

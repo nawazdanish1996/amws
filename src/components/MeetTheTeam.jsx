@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from 'aos';
 import img1 from "../img/TeamMembers/1.jfif";
 import img2 from "../img/TeamMembers/2.jpg";
 import img3 from "../img/TeamMembers/3.jpg";
@@ -51,9 +52,13 @@ const MeetTheTeam = () => {
 
     ];
 
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[])
+
   return (
     <div id='team'>
-        <div className="container mt-md-3">
+        <div className="container mt-md-3" data-aos="fade-left">
             <div className="row">
                 <div className="col-md-12 mb-3">
                     <h2 style={{ fontFamily: "cursive" }} className=" pt-3 pb-2 text-decoration-underline">Meet The Team</h2>
