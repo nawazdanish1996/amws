@@ -11,7 +11,7 @@ const ImgSlider = () => {
 
 
   return (
-    <div id='imgslider' data-aos="fade-up">
+    <div id='imgslider'>
     <div className="container">
         <div className="row">
             <div className="col-md-3 p-md-2 mb-sm-3 mb-xs-3">

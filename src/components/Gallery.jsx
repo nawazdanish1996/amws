@@ -76,7 +76,7 @@ const Gallery = () => {
   },[])
 
   return (
-    <div id='gallery' data-aos="fade-up">
+    <div id='gallery'>
       <div className="contain">
         <div className="row">
           <div className="col-md-12">
@@ -85,8 +85,8 @@ const Gallery = () => {
             <h2 style={{fontFamily: "cursive"}} className=' pt-3 pb-2 text-decoration-underline'>Our Impact</h2>
                 <div className="image-container">
                   <div className={models ? myObj.show : myObj.hide} >
-                    <span onClick={()=> setModels(false)}>&times;</span>
-                    <img src={tempImgSrc} alt="X" />
+                    {/* <span >&times;</span> */}
+                    <img onClick={()=> setModels(false)} src={tempImgSrc} alt="X" style={{cursor: "pointer"}} />
                   </div>
 
                   {

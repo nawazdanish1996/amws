@@ -35,7 +35,7 @@
     border: 10px solid white;
     box-shadow: 0 5px rgba(0, 0, 0, .1);
     overflow: hidden;
-    cursor: pointer;
+    cursor: cell;
 }
 
 .grid-wrapperss .image-container .image img{

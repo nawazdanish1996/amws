@@ -8,7 +8,7 @@ const About = () => {
   }, []);
 
   return (
-    <div id="about" data-aos="fade-up">
+    <div id="about">
       <div className="container">
         <div className="row">
           <div className="col-md-12 mt-md-1 abt">

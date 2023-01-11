@@ -41,8 +41,8 @@ function App() {
         </div>
       :
         <div className="App">
-          <UnderConstruction />
           <NavBars />
+          <UnderConstruction />
           <Popup />
           <TopMarquee />
           <ImgSlider />

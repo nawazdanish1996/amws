@@ -6,43 +6,33 @@ const MeetTheTeam = () => {
     const TeamData = [
         {
             sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
+            name: "Master Absar",
+            imgSrc: img1,
+            post: "Director"
         },
         {
-            sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
+            sl: 2,
+            name: "Guddu",
+            imgSrc: img1,
+            post: "Cashieeeeeeeeer"
         },
         {
-            sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
+            sl: 3,
+            name: "Gudda",
+            imgSrc: img1,
+            post: "Director"
         },
         {
-            sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
+            sl: 4,
+            name: "Demo Names",
+            imgSrc: img1,
+            post: "Director"
         },
         {
-            sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
-        },
-        {
-            sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
-        },
-        {
-            sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
-        },
-        {
-            sl: 1,
-            name: "Md. Nurul Absar",
-            imgSrc: img1
+            sl: 4,
+            name: "Demo Names",
+            imgSrc: img1,
+            post: "Director"
         },
 
     ];
@@ -57,14 +47,16 @@ const MeetTheTeam = () => {
 
                 {
                 TeamData.map((val, ind)=>{
-                    const {name, imgSrc} = val;
+                    const {name, imgSrc, post} = val;
                     return(
-                        <div key={ind} className="card ms-md-4 mb-md-3 box" style={{width: "15rem"}}>
-                            <img className="card-img-top" src={imgSrc} alt="img" />
+                        <div className="col-md-3 mb-4">
+                        <div key={ind} className="card box" style={{width: "15rem", margin: "0 auto"}}>
+                            <img loading='lazy' className="card-img-top" src={imgSrc} alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title text-dark">{name}</h5>
-                                <p class="card-text text-dark">Director</p>
+                                <p class="card-text text-dark">{post}</p>
                             </div>
+                        </div>
                         </div>
                     )
                 })

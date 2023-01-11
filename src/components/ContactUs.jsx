@@ -61,7 +61,7 @@ const ContactUs = () => {
   },[])
 
   return (
-    <div id='contact' data-aos="fade-up" >
+    <div id='contact' >
       <div className="container p-4">
         <div className="row">
           <div className="col-md-12 mb-md-3">
@@ -79,7 +79,7 @@ const ContactUs = () => {
               />
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 mt-4">
                   <h6 className='text-uppercase text-decoration-underline'>Office Address</h6>
                   <br />
                   <p>Lodhan Chowk, Goalpokher</p>
