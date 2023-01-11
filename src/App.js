@@ -16,6 +16,7 @@ import Popup from './components/Popup';
 
 import useSound from 'use-sound';
 import snd from "./sound/visitorSound.mpeg";
+import MeetTheTeam from './components/MeetTheTeam';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,7 +26,7 @@ function App() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 12000);
+    }, 1000);
 
     return plays();
   }, [plays])
@@ -48,6 +49,7 @@ function App() {
           <About />
           <OurMission />
           <Gallery />
+          <MeetTheTeam />
           <ContactUs />
           <Footer />
           <RedirectButton />
