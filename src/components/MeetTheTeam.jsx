@@ -34,11 +34,21 @@ const MeetTheTeam = () => {
             name: "Md. Nurul Absar",
             imgSrc: img1
         },
+        {
+            sl: 1,
+            name: "Md. Nurul Absar",
+            imgSrc: img1
+        },
+        {
+            sl: 1,
+            name: "Md. Nurul Absar",
+            imgSrc: img1
+        },
 
     ];
 
   return (
-    <div>
+    <div id='team'>
         <div className="container mt-md-3">
             <div className="row">
                 <div className="col-md-12 mb-3">
@@ -49,7 +59,7 @@ const MeetTheTeam = () => {
                 TeamData.map((val, ind)=>{
                     const {name, imgSrc} = val;
                     return(
-                        <div key={ind} className="card p-1 ms-5 mb-4 box" style={{width: "18rem"}}>
+                        <div key={ind} className="card ms-md-4 mb-md-3 box" style={{width: "15rem"}}>
                             <img className="card-img-top" src={imgSrc} alt="img" />
                             <div className="card-body">
                                 <h5 className="card-title text-dark">{name}</h5>

@@ -46,6 +46,7 @@ function NavBars() {
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#mission">Our Mission</Nav.Link>
                     <Nav.Link href="#gallery">Gallery</Nav.Link>
+                    <Nav.Link href="#team">Team Members</Nav.Link>
                     <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
