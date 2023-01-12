@@ -5,21 +5,26 @@ import { Nav, Navbar } from 'react-bootstrap';
 import Dark from "../images/dark theme icon/moon.png";
 import Light from "../images/dark theme icon/sun.png";
 import logo from "../img/logo.png"
+import useSound from 'use-sound';
+import boopSfx from "../sound/themeChange.mp3";
 
 function NavBars() {
     const [mode, setMode] = useState(Dark);
+    const [play] = useSound(boopSfx);
 
     const Mode = () =>{
         if(mode === Dark){
             setMode(Light);
             document.body.style.background = "#2f3542";
             document.body.style.color  = "#fff";
-            console.log("Dark");
+            // console.log("Dark");
+            return play();
         }else{
             setMode(Dark);
-            console.log("Light");
             document.body.style.background = "#fff";
             document.body.style.color = "black";
+            // console.log("Light");
+            return play();
         }
     };
 
