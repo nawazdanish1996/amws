@@ -12,6 +12,7 @@
   align-items: center;
   width: 100%;
   height: 100vh;
+  background-color: #282c34;
 }
 
 #loader #h4-visitor{

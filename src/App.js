@@ -2,7 +2,7 @@ import './App.css';
 import React, {useEffect, useState} from "react";
 import Footer from './components/Footer';
 import NavBars from './components/NavBars';
-import RedirectButton from './components/RedirectButton';
+// import RedirectButton from './components/RedirectButton';
 import ImgSlider from "./components/ImgSlider";
 import TopMarquee from './components/TopMarquee';
 import About from './components/About';
@@ -36,8 +36,12 @@ function App() {
       {
         loading ?
         <div id='loader'>
-          <h5>Al-Madad Welfare Society</h5>
-          <SyncLoader color={"#282c34"} loading={loading} size={10} />
+          <h5>
+            <span style={{color: "#ff9933"}}>Al-Madad </span>
+            <span style={{color: "#ffffff"}}>Welfare </span>
+            <span style={{color: "#138808"}}>Society</span>
+          </h5>
+          <SyncLoader color={"#fff"} loading={loading} size={10} />
         </div>
       :
         <div className="App">
@@ -52,7 +56,7 @@ function App() {
           <MeetTheTeam />
           <ContactUs />
           <Footer />
-          <RedirectButton />
+          {/* <RedirectButton /> */}
           <SocialMedia />
         </div>
       }
