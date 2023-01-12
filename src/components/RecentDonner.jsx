@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import Aos from 'aos';
 import Marquee from "react-fast-marquee";
 import img1 from "../img/TeamMembers/1.jfif";
 
@@ -10,7 +11,7 @@ const RecentDonner = () => {
             sl: 1,
             imgSor: img1,
             name: "NAME",
-            rs: 5000,
+            rs: 10000,
             date: "12/01/22"
         },
         {
@@ -61,9 +62,13 @@ const RecentDonner = () => {
         setPausePlay(false)
     }
 
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[])
+
   return (
     <div id='sponsors'>
-        <div className="container">
+        <div className="container" data-aos="fade-left">
             <div className="row">
                 <div className="col-md-12">
                     <h2 style={{ fontFamily: "cursive" }} className=" pt-3 pb-2 text-decoration-underline">
