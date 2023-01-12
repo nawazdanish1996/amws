@@ -26,8 +26,8 @@ const ContactUs = () => {
     }else if(mobNo === "" || isNaN(mobNo) || mobNo.length < 10 || mobNo.length > 10 ){
       swal("Oops!", "Mobile Number must be 10 digit", "error");
       return play();
-    }else if(msg.length < 10){
-      swal("Oops!", "Subject is less than ten words", "error");
+    }else if(msg.length < 25){
+      swal("Oops!", "Message should greater than twenty five words.", "error");
       return play();
     }
     else{
