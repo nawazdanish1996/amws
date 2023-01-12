@@ -27,7 +27,7 @@ const ContactUs = () => {
       swal("Oops!", "Mobile Number must be 10 digit", "error");
       return play();
     }else if(msg.length < 25){
-      swal("Oops!", "Message should greater than twenty five words.", "error");
+      swal("Oops!", "Message should be greater than twenty five words.", "error");
       return play();
     }
     else{
