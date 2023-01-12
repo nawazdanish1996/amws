@@ -1,0 +1,7 @@
+.cons {
+    padding-top: 70px; 
+}
+
+@media screen and (min-width: 768px) {
+    .cons { padding-top: 100px; }
+}

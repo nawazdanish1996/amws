@@ -27,10 +27,3 @@
   90% { color: #ff00c8;}
   100% { color: #ff0000;}
 }
-
-body {
-  padding-top: 70px; 
-}
-@media screen and (min-width: 768px) {
-  body { padding-top: 100px; }
-}
