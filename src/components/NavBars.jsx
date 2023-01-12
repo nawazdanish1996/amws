@@ -59,6 +59,8 @@ function NavBars() {
                         <Nav.Link className="fw-bold" href="#about">About</Nav.Link>
                         <Nav.Link className="fw-bold" href="#mission">Our Mission</Nav.Link>
                         <Nav.Link className="fw-bold" href="#gallery">Gallery</Nav.Link>
+                        <Nav.Link className="fw-bold" href="#sponsors">Sponsors</Nav.Link>
+                        <Nav.Link className="fw-bold" href="#award">Award & Certificates</Nav.Link>
                         <Nav.Link className="fw-bold" href="#team">Team Members</Nav.Link>
                         <Nav.Link className="fw-bold" href="#contact">Contact</Nav.Link>
                     </Nav>

@@ -18,6 +18,7 @@ import useSound from 'use-sound';
 import snd from "./sound/visitorSound.mpeg";
 import MeetTheTeam from './components/MeetTheTeam';
 import Certifications from './components/Certifications';
+import RecentDonner from './components/RecentDonner';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -54,6 +55,7 @@ function App() {
           <About />
           <OurMission />
           <Gallery />
+          <RecentDonner />
           <Certifications />
           <MeetTheTeam />
           <ContactUs />

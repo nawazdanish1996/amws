@@ -34,10 +34,10 @@ const Certifications = () => {
 
   useEffect(()=>{
     Aos.init({duration: 2000});
-  },[])
+  },[]);
 
   return (
-    <div>
+    <div id="award">
       <div className="container pt-3 pb-2" data-aos="fade-left">
         <div className="row">
           
