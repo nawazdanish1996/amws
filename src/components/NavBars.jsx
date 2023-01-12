@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import "../css/Navbar.css";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { Nav, Navbar } from 'react-bootstrap';
