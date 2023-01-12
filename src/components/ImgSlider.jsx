@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import first from "../img/3.jpg";
+import first from "../img/slider/1.jfif";
+import second from "../img/slider/2.jpg";
 import DonateButton from "./DonateButton";
 
 const ImgSlider = () => {
@@ -31,13 +32,13 @@ const ImgSlider = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={first} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
+                            {/* <div className="carousel-caption d-none d-md-block">
                                 <h5>Im Nawaz Danish</h5>
                                 <p>olodhn</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="carousel-item">
-                            <img src={first} className="d-block w-100" alt="..." />
+                            <img src={second} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
                             <img src={first} className="d-block w-100" alt="..." />
@@ -61,7 +62,7 @@ const ImgSlider = () => {
             </div>
 
             <div className="col-md-3 mt-3">
-                <h4 className='text-primary text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Numbers</h4>
+                <h4 className='text-primary text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Number</h4>
                 <h6 className='text-success mt-3'>Md. Nurul Huda</h6>
                 <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
                 <h6 className='text-success mt-3'>Mohd. Zeeshan Ahmed</h6>

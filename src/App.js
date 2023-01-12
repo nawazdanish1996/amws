@@ -17,6 +17,7 @@ import { SyncLoader } from "react-spinners";
 import useSound from 'use-sound';
 import snd from "./sound/visitorSound.mpeg";
 import MeetTheTeam from './components/MeetTheTeam';
+import Certifications from './components/Certifications';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -26,7 +27,7 @@ function App() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 15000);
+    }, 1000);
 
     return plays();
   }, [plays])
@@ -53,6 +54,7 @@ function App() {
           <About />
           <OurMission />
           <Gallery />
+          <Certifications />
           <MeetTheTeam />
           <ContactUs />
           <Footer />

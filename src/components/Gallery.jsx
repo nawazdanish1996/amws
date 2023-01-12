@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Aos from 'aos';
 import "../css/Gallery.css";
-import img1 from "../img/gallery/1.jpeg";
+import img1 from "../img/gallery/1.jfif";
 import img2 from "../img/gallery/2.jfif";
 import img3 from "../img/gallery/3.jfif";
 import img4 from "../img/gallery/4.jfif";
@@ -10,6 +10,8 @@ import img6 from "../img/gallery/6.jfif";
 import img7 from "../img/gallery/7.jfif";
 import img8 from "../img/gallery/8.jfif";
 import img9 from "../img/gallery/9.jfif";
+import img10 from "../img/gallery/10.jfif";
+
 
 
 const Gallery = () => {
@@ -52,8 +54,8 @@ const Gallery = () => {
     },
     {
       id: 10,
-      imgSrc: img9
-    }
+      imgSrc: img10
+    },
   ]
   // console.log(data[0].imgSrc);
   const myObj = {

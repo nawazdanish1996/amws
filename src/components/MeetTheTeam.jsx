@@ -3,6 +3,10 @@ import Aos from 'aos';
 import img1 from "../img/TeamMembers/1.jfif";
 import img2 from "../img/TeamMembers/2.jpg";
 import img3 from "../img/TeamMembers/3.jpg";
+import img4 from "../img/TeamMembers/4.jfif";
+import img5 from "../img/TeamMembers/5.jfif";
+import img6 from "../img/TeamMembers/6.jfif";
+import img7 from "../img/TeamMembers/7.jfif";
 import "../css/MeetTheTeam.css";
 
 const MeetTheTeam = () => {
@@ -27,27 +31,27 @@ const MeetTheTeam = () => {
         },
         {
             sl: 4,
-            name: "Md. Maroof Alam",
-            imgSrc: img3,
+            name: "Arman Danish Noori",
+            imgSrc: img4,
             post: "Assit. Secretary"
         },
         {
             sl: 5,
-            name: "Arman",
-            imgSrc: img3,
-            post: "Voice President"
+            name: "Md. Maroof Alam",
+            imgSrc: img5,
+            post: "Voice-President"
         },
         {
             sl: 6,
-            name: "Arif Ahmed",
-            imgSrc: img3,
-            post: "Secretary"
+            name: "Sarfaraj Alam",
+            imgSrc: img6,
+            post: "Co-Ordinator"
         },
         {
             sl: 7,
-            name: "Raja",
-            imgSrc: img3,
-            post: "Secretary"
+            name: "Arif Ahmed",
+            imgSrc: img7,
+            post: "Program Associate"
         },
 
     ];
