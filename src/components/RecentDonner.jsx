@@ -15,45 +15,38 @@ const RecentDonner = () => {
             date: "12/01/22"
         },
         {
-            sl: 1,
+            sl: 2,
             imgSor: img1,
-            name: "Nawaz Danish",
-            rs: 5000,
+            name: "xyz",
+            rs: 1000,
             date: "15/08/2022"
         },
         {
-            sl: 1,
+            sl: 3,
             imgSor: img1,
             name: "NAME",
-            rs: 5000,
+            rs: 300,
             date: "12/01/22"
         },
         {
-            sl: 1,
+            sl: 4,
             imgSor: img1,
             name: "NAME",
-            rs: 5000,
+            rs: 900,
             date: "13/01/22"
         },
         {
-            sl: 1,
+            sl: 5,
             imgSor: img1,
             name: "NAME",
-            rs: 5000,
+            rs: 101,
             date: "13/01/22"
         },
         {
-            sl: 1,
+            sl: 6,
             imgSor: img1,
             name: "NAME",
-            rs: 5000,
-            date: "13/01/22"
-        },
-        {
-            sl: 1,
-            imgSor: img1,
-            name: "NAME",
-            rs: 5000,
+            rs: 202,
             date: "13/01/22"
         },
     ];
