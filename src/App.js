@@ -50,9 +50,9 @@ function App() {
         <div className="App">
           <NavBars />
           <UnderConstruction />
-          <VisitorAudio />
           {/* <Popup /> */}
           <TopMarquee />
+          <VisitorAudio />
           <ImgSlider />
           <About />
           <OurMission />
