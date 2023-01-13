@@ -1,7 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import Aos from 'aos';
 import Marquee from "react-fast-marquee";
-import img1 from "../img/TeamMembers/1.jfif";
+// Sponsors
+import img1 from "../img/Sponsors/None_photo.jpeg";
+import Miraj from "../img/Sponsors/Meraj.jfif";
+import Samsad from "../img/Sponsors/Samsad.jfif";
+import Absar from "../img/Sponsors/Absar.jpg";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
@@ -9,45 +13,45 @@ const RecentDonner = () => {
     const obj = [
         {
             sl: 1,
-            imgSor: img1,
-            name: "NAME",
-            rs: 10000,
-            date: "12/01/22"
+            imgSor: Miraj,
+            name: "Miraj Alam",
+            rs: 1000,
+            date: ""
         },
         {
             sl: 2,
-            imgSor: img1,
-            name: "xyz",
-            rs: 1000,
-            date: "15/08/2022"
+            imgSor: Samsad,
+            name: "Samsad Alam",
+            rs: 1700,
+            date: ""
         },
         {
             sl: 3,
-            imgSor: img1,
-            name: "NAME",
-            rs: 300,
-            date: "12/01/22"
+            imgSor: Absar,
+            name: "Md Nurul Huda",
+            rs: 1100,
+            date: "Each Month"
         },
         {
             sl: 4,
             imgSor: img1,
-            name: "NAME",
-            rs: 900,
-            date: "13/01/22"
+            name: "..",
+            rs: "..",
+            date: ".."
         },
         {
             sl: 5,
             imgSor: img1,
-            name: "NAME",
-            rs: 101,
-            date: "13/01/22"
+            name: "..",
+            rs: "..",
+            date: ".."
         },
         {
             sl: 6,
             imgSor: img1,
-            name: "NAME",
-            rs: 202,
-            date: "13/01/22"
+            name: "..",
+            rs: "..",
+            date: ".."
         },
     ];
 
@@ -65,11 +69,11 @@ const RecentDonner = () => {
             <div className="row">
                 <div className="col-md-12">
                     <h2 style={{ fontFamily: "cursive" }} className=" pt-3 pb-2 text-decoration-underline">
-                        List of the Sponsors
+                        List of the Sponsors / Hidden Heroes
                     </h2>
                 </div>
 
-                <Marquee play={pausePlay} pauseOnHover={onMouseEnterPause} gradient={false} speed={15} direction="left" >
+                <Marquee play={pausePlay} pauseOnHover={onMouseEnterPause} gradient={false} speed={25} direction="left" >
                 {obj.map((val, ind)=>{
                     const {name, rs, date, imgSor} = val;
                     return(

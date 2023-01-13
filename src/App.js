@@ -14,21 +14,22 @@ import UnderConstruction from './components/UnderConstruction';
 import { SyncLoader } from "react-spinners";
 // import Popup from './components/Popup';
 
-import useSound from 'use-sound';
-import snd from "./sound/sareJahanSeAchcha.mp3";
 import MeetTheTeam from './components/MeetTheTeam';
 import Certifications from './components/Certifications';
 import RecentDonner from './components/RecentDonner';
+import VisitorAudio from './components/VisitorAudio';
+import useSound from 'use-sound';
+import visitedSound from "./sound/visitorSound.mpeg";
 
 function App() {
   const [loading, setLoading] = useState(true);
-  const [plays] = useSound(snd);
+  const [plays] = useSound(visitedSound);
 
   useEffect(()=>{
     setLoading(true);
     setTimeout(()=>{
-      setLoading(false)
-    }, 12000);
+    setLoading(false)
+  }, 1000);
 
     return plays();
   }, [plays])
@@ -49,6 +50,7 @@ function App() {
         <div className="App">
           <NavBars />
           <UnderConstruction />
+          <VisitorAudio />
           {/* <Popup /> */}
           <TopMarquee />
           <ImgSlider />
