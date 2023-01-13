@@ -28,7 +28,7 @@ function App() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 12000);
+    }, 1000);
 
     return plays();
   }, [plays])

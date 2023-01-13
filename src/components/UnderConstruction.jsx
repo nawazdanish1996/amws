@@ -4,7 +4,13 @@ import "../css/Cons.css"
 const UnderConstruction = () => {
   return (
     <div className="cons">
-        <h1 style={{color: "red"}}>Website is under construction</h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <h1 style={{color: "red"}}>Website is under construction</h1>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

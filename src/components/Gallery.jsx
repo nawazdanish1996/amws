@@ -79,7 +79,7 @@ const Gallery = () => {
 
   return (
     <div id='gallery'>
-      <div className="contain" data-aos="fade-left">
+      <div className="container" data-aos="fade-left">
         <div className="row">
           <div className="col-md-12">
 
