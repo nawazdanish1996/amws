@@ -8,10 +8,12 @@ import Light from "../images/dark theme icon/sun.png";
 import logo from "../img/logo.png"
 import useSound from 'use-sound';
 import boopSfx from "../sound/themeChange.mp3";
+import btnClick from "../sound/clickSound.mp3";
 
 function NavBars() {
     const [mode, setMode] = useState(Dark);
     const [play] = useSound(boopSfx);
+    const [clkBtn] = useSound(btnClick);
 
     const Mode = () =>{
         if(mode === Dark){
@@ -55,14 +57,14 @@ function NavBars() {
                 <Navbar.Toggle className="coloring" />
                 <Navbar.Collapse>
                     <Nav className='ms-auto me-5' navbarScroll>
-                        <Nav.Link id="achorTag" className="fw-bold" href="/">Home</Nav.Link>
-                        <Nav.Link id="achorTag" className="fw-bold" href="#about">About</Nav.Link>
-                        <Nav.Link id="achorTag" className="fw-bold" href="#mission">Our Mission</Nav.Link>
-                        <Nav.Link id="achorTag" className="fw-bold" href="#gallery">Gallery</Nav.Link>
-                        <Nav.Link id="achorTag" className="fw-bold" href="#sponsors">Sponsors</Nav.Link>
-                        <Nav.Link id="achorTag" className="fw-bold" href="#award">Award & Certificates</Nav.Link>
-                        <Nav.Link id="achorTag" className="fw-bold" href="#team">Team Members</Nav.Link>
-                        <Nav.Link id="achorTag" className="fw-bold" href="#contact">Contact</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="/">Home</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="#about">About</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="#mission">Our Mission</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="#gallery">Gallery</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="#sponsors">Sponsors</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="#award">Award & Certificates</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="#team">Team Members</Nav.Link>
+                        <Nav.Link onMouseEnter={()=>clkBtn()} id="achorTag" className="fw-bold" href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

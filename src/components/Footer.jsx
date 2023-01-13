@@ -8,6 +8,12 @@ function Footer() {
         <div className="row">
 
           <div className="col-md-12">
+              <div className="float-start">
+                <span>Visitors: </span>
+                <img style={{width: "150px"}} src="https://hitwebcounter.com/counter/counter.php?page=8136709&style=0009&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" />
+              </div>
+              <br />
+              <br />
               <small>Copyright &copy; - 2023</small>
               <br />
               <small>All Rights Reserved by <span className='text-success h6'>Al-Madad Welfare Society</span></small>
