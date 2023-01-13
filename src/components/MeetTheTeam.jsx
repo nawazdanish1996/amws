@@ -75,7 +75,7 @@ const MeetTheTeam = () => {
                         <div className="col-md-3 mb-4">
                         <div key={ind} className="card box" style={{width: "15rem", margin: "0 auto"}}>
                             <img style={{borderRadius: "20px 20px 0 0"}} loading='lazy' className="card-img-top" src={imgSrc} alt="img" />
-                            <div className="card-body">
+                            <div className="card-body bg-white">
                                 <h5 className="card-title text-dark">{name}</h5>
                                 <p class="card-text text-dark">{post}</p>
                             </div>
