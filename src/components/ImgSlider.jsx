@@ -1,8 +1,11 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import first from "../img/slider/1.jfif";
-import second from "../img/slider/2.jpg";
 import DonateButton from "./DonateButton";
+import first from "../img/slider/1.jfif";
+import second from "../img/slider/3.jfif";
+import third from "../img/slider/2.jfif";
+import forth from "../img/slider/4.jpg";
+import fifth from "../img/slider/5.jfif";
 
 const ImgSlider = () => {
 
@@ -16,7 +19,7 @@ const ImgSlider = () => {
     <div className="container">
         <div className="row">
             <div className="col-md-3 p-md-2 mb-sm-3 mb-xs-3">
-                <h5 style={{fontFamily: "cursive"}}>How do you want to help to the <span className='text-primary fw-bold'>needy people</span>.</h5>
+                <h5 style={{fontFamily: "cursive"}}>How do you want to help the <span className='text-primary fw-bold'>needy people ?</span></h5>
                 <p className='mt-md-2 mb-md-3' style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
                 <DonateButton />
             </div>
@@ -41,13 +44,13 @@ const ImgSlider = () => {
                             <img src={second} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src={first} className="d-block w-100" alt="..." />
+                            <img src={third} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src={first} className="d-block w-100" alt="..." />
+                            <img src={forth} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src={first} className="d-block w-100" alt="..." />
+                            <img src={fifth} className="d-block w-100" alt="..." />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

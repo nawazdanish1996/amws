@@ -26,7 +26,7 @@ const About = () => {
               Our committee members are the unsung heroes of society, using their passion and resources to create positive change where government alone cannot reach.
             </p>
 
-            <p className="text-start">The major focus areas for <span className="text-success fw-bolder">Al-Madad Welfare Society</span> are:</p>
+            <p className="text-start">The major focus areas for <span className="text-success fw-bolder">Goalpokher Al-Madad Welfare Society</span> are:</p>
             <div className="text-start ms-md-5" id="para">
               <p>1. To help poor and needy people.</p>
               <p>2. To provide food and clothing for helpless orphans and windows of society.</p>

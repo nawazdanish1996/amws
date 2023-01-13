@@ -1,10 +1,11 @@
 import React from 'react';
+import "../css/VisitorAudio.css";
 import visitedSound from "../sound/sareJahanSeAchcha.mp3";
 
 
 const VisitorAudio = () => {
   return (
-    <React.Fragment>
+    <div>
         <div className="container">
             <div className="row">
                 <div className="col-md-12 mb-2" style={{margin: "0  auto"}}>
@@ -22,7 +23,7 @@ const VisitorAudio = () => {
                 </div>
             </div>
         </div>
-    </React.Fragment>
+    </div>
   )
 }
 

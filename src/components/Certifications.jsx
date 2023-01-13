@@ -1,23 +1,33 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
 import "../css/Certifications.css";
+//doc
+import reg from "../img/certificate/reg.pdf";
+import blood2021 from "../img/certificate/80g12a.pdf";
+import annualReport from "../img/certificate/annualReport.pdf";
+import ga from "../img/certificate/80g12a.pdf";
 
 const Certifications = () => {
   const myObj = [
     {
       name: "Certificate of Registration of Societes",
       board: "Issued by Govt. Of West Bengal",
-      srcImg: ""
+      srcImg: reg
     },
     {
       name: "Blood Donation Camp 05/07/2021",
       board: "(State Blood Transfusion Council, West Bengal)",
+      srcImg: blood2021
+    },
+    {
+      name: "Audit",
+      board: "By: CA Ekta Agarwwaala & Co",
       srcImg: ""
     },
     {
-      name: "Audit & Annual Report",
-      board: "",
-      srcImg: ""
+      name: "Annual Report",
+      board: "Issued By Govt. Of West Bengal",
+      srcImg: annualReport
     },
     {
       name: "NGO Darpan Registred",
@@ -26,8 +36,8 @@ const Certifications = () => {
     },
     {
       name: "80G 12A",
-      board: "Govt. Of West Bengal",
-      srcImg: ""
+      board: "Doc ID No.: AADTG7353BF2022101",
+      srcImg: ga
     },
 
   ];

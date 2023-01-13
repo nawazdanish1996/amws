@@ -11,6 +11,8 @@ import img7 from "../img/gallery/7.jfif";
 import img8 from "../img/gallery/8.jfif";
 import img9 from "../img/gallery/9.jfif";
 import img10 from "../img/gallery/10.jfif";
+import img11 from "../img/gallery/11.jfif";
+import img12 from "../img/gallery/12.jfif";
 
 
 
@@ -55,6 +57,14 @@ const Gallery = () => {
     {
       id: 10,
       imgSrc: img10
+    },
+    {
+      id: 11,
+      imgSrc: img11
+    },
+    {
+      id: 12,
+      imgSrc: img12
     },
   ]
   // console.log(data[0].imgSrc);
