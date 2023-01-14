@@ -37,7 +37,7 @@ function NavBars() {
   return (
     <div>
         <div>
-            {[false].map((expend)=>(
+            {/* {[false].map((expend)=>( */}
 
             <Navbar 
                 fixed="top"
@@ -86,7 +86,7 @@ function NavBars() {
                 </Offcanvas.Body>
             </Navbar.Offcanvas>
             </Navbar>
-            ))}
+            {/*  ))} */}
         </div>
     </div>
   )
