@@ -28,11 +28,11 @@
         border-bottom: 1px solid white;
         width: 100%;
         padding: 15px;
-        transition: all 1s ease;
+        transition: all 1s ease-in-out;
     }
     #achorTag:hover{
         text-decoration: none;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 }
 

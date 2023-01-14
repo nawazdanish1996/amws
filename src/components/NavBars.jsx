@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import "../css/Navbar.css";
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import { Nav, Navbar, Offcanvas} from 'react-bootstrap';
+import { Nav, Navbar} from 'react-bootstrap';
 import Dark from "../images/dark theme icon/moon.png";
 import Light from "../images/dark theme icon/sun.png";
 import logo from "../img/logo.png"
@@ -37,8 +37,6 @@ function NavBars() {
   return (
     <div>
         <div>
-            {/* {[false].map((expend)=>( */}
-
             <Navbar 
                 fixed="top"
                 bg="dark" 
@@ -53,11 +51,9 @@ function NavBars() {
                     </a>
                 </Navbar.Brand>
                 <img className='ms-5 ms-auto me-4' onClick={Mode} src={mode} alt="Mode" style={{width: "30px", cursor: "pointer"}} />
-
                 <Navbar.Toggle className="coloring" />
 
-
-                <Navbar.Offcanvas
+                {/* <Navbar.Offcanvas
               id={`offcanvasNavbar-expand`}
               aria-labelledby={`offcanvasNavbarLabel-expand`}
               placement="end" className="toggleDark">
@@ -70,8 +66,9 @@ function NavBars() {
                     </small>
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
-                {/* <Navbar.Collapse> */}
+              <Offcanvas.Body> */}
+
+                <Navbar.Collapse>
                     <Nav className='ms-auto me-5 text-center' navbarScroll>
                         <Nav.Link onClick={clkBtn} id="achorTag" className="fw-bold" href="/">Home</Nav.Link>
                         <Nav.Link onClick={clkBtn} id="achorTag" className="fw-bold" href="#about">About</Nav.Link>
@@ -82,11 +79,12 @@ function NavBars() {
                         <Nav.Link onClick={clkBtn} id="achorTag" className="fw-bold" href="#team">Team Members</Nav.Link>
                         <Nav.Link onClick={clkBtn} id="achorTag" className="fw-bold" href="#contact">Contact</Nav.Link>
                     </Nav>
-                {/* </Navbar.Collapse> */}
-                </Offcanvas.Body>
-            </Navbar.Offcanvas>
+                </Navbar.Collapse>
+
+            {/* </Offcanvas.Body>
+            </Navbar.Offcanvas> */}
+
             </Navbar>
-            {/*  ))} */}
         </div>
     </div>
   )
