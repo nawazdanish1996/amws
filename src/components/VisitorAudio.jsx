@@ -14,7 +14,7 @@ const VisitorAudio = () => {
                             width: "250px",
                             float: "right",
                             height: "20px",
-                            boxShadow: "-3px -3px 10px 3px red, 3px 3px 10px 3px blue",
+                            boxShadow: "-3px -3px 5px 3px red, 3px 3px 5px 3px blue",
                             borderRadius: "20px"
                         }}
                     >
