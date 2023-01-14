@@ -69,7 +69,6 @@
 .bankDetails small{
   float: left;
   margin-top:  -30px;
-  font-size: 15px;
 }
 
 #upi{
@@ -79,5 +78,15 @@
 @media (max-width: 463px){
   #upi{
     font-size: 12px;
+  }
+}
+
+.bankDetails{
+  font-size: 15px;
+}
+
+@media (max-width: 379px){
+  .bankDetails{
+    font-size: 10px;
   }
 }

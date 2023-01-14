@@ -1,11 +1,9 @@
-
-
 /* padding: 0 20px; */
 #achorTag{
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
-    color: #ffffff;
+    color: #16a085;
     transition: 0.3s ease-in-out;
 }
 
@@ -15,8 +13,31 @@
     text-underline-offset: 5px;
 }
 
-/* .active{
-    color: #17cf97;
-    text-decoration: underline solid #17cf97 2px;
-    text-underline-offset: 5px;
-} */
+.toggleDark{
+    background-color: #2f3542;
+}
+
+.offcan{
+    font-size: 15px;
+}
+
+
+@media (max-width: 767px) {
+    #achorTag{
+        border-top: 1px solid black;
+        border-bottom: 1px solid white;
+        width: 100%;
+        padding: 15px;
+        transition: all 1s ease;
+    }
+    #achorTag:hover{
+        text-decoration: none;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 347px){
+    .offcan{
+        font-size: 12px;
+    }
+}

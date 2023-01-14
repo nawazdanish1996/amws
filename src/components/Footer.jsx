@@ -19,8 +19,8 @@ function Footer() {
               <small>All Rights Reserved by <span className='text-success'>Al-Madad Welfare Society</span></small>
               <br />
 
-              <small>Developed By: Nawaz Danish &nbsp;
-                <a className='text-decoration-none' href="https://www.facebook.com/developerHost/" target="blank">Facebook</a>
+              <small>Developed By: &nbsp;
+                <a className='text-decoration-none' href="https://www.facebook.com/developerHost/" target="blank">Nawaz Danish</a>
                 &nbsp;
                 ||
                 &nbsp;

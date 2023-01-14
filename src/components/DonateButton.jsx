@@ -33,7 +33,7 @@ const DonateButton = () => {
                     <br />
                     <br />
                     <div className="bankDetails">
-                        <h6 style={{color: "green"}}>HDFC Bank Account Details</h6>
+                        <small style={{color: "green"}}>HDFC Bank Account Details</small>
                         <br />
                         <small style={{color: "black"}}>Name: Goalpokher Al Madad Welfare Society</small>
                         <br />
