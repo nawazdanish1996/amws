@@ -48,7 +48,7 @@ const Certifications = () => {
 
   return (
     <div id="award">
-      <div className="container pt-3 pb-2" data-aos="fade-left">
+      <div className="container pt-3 pb-2">
         <div className="row">
           
           <div className="col-md-12">

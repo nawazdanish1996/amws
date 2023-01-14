@@ -44,7 +44,7 @@ const RecentDonner = () => {
 
   return (
     <div id='sponsors'>
-        <div className="container" data-aos="fade-left">
+        <div className="container">
             <div className="row">
                 <div className="col-md-12">
                     <h2 style={{ fontFamily: "cursive" }} className=" pt-3 pb-2 text-decoration-underline">

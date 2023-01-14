@@ -15,7 +15,7 @@ const SocialMedia = () => {
   },[])
 
   return (
-    <div id='socialMedida' data-aos="fade-left">
+    <div id='socialMedida'>
         <a href="https://www.facebook.com/GoalpokherAlMadadWelfareSociety" target="blank">
             <img onMouseEnter={()=> play()} src={fbImg} loading="lazy" alt="Facebook" />
         </a>

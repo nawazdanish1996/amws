@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <div id="about">
-      <div className="container" data-aos="fade-left">
+      <div className="container">
         <div className="row">
           <div className="col-md-12 mt-md-1 abt">
             <h2

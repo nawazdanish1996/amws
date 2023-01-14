@@ -16,11 +16,11 @@ function Footer() {
               <br />
               <small>Copyright &copy; - 2023</small>
               <br />
-              <small>All Rights Reserved by <span className='text-success h6'>Al-Madad Welfare Society</span></small>
+              <small>All Rights Reserved by <span className='text-success'>Al-Madad Welfare Society</span></small>
               <br />
 
               <small>Developed By: Nawaz Danish &nbsp;
-                <a className='text-decoration-none fs-6' href="https://www.facebook.com/developerHost/" target="blank">Facebook</a>
+                <a className='text-decoration-none' href="https://www.facebook.com/developerHost/" target="blank">Facebook</a>
                 &nbsp;
                 ||
                 &nbsp;

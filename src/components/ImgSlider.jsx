@@ -23,7 +23,8 @@ const ImgSlider = () => {
                 <p className='mt-md-2 mb-md-3' style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
                 <DonateButton />
             </div>
-            <div className='col-md-6 rounded mx-auto d-none d-xl-block d-lg-block d-md-block'>
+            {/* d-none d-xl-block d-lg-block d-md-block */}
+            <div className='col-md-6 rounded mx-auto'>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
