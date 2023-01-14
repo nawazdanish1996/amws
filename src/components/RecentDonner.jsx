@@ -16,14 +16,14 @@ const RecentDonner = () => {
             imgSor: Miraj,
             name: "Miraj Alam",
             rs: 1000,
-            date: ""
+            date: "02/01/2023"
         },
         {
             sl: 2,
             imgSor: Samsad,
             name: "Samsad Alam",
             rs: 1700,
-            date: ""
+            date: "07/01/2023"
         },
         {
             sl: 3,
@@ -75,7 +75,7 @@ const RecentDonner = () => {
                                     }
                                     {
                                         date === "" ? "" :
-                                        <p style={{marginTop: "-5px"}} class="card-text text-dark">Date: {date}</p>
+                                        <p style={{marginTop: "-15px"}} class="card-text text-dark">Date: {date}</p>
                                     }
                                 </div>
                             </div>
