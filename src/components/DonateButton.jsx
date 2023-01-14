@@ -41,7 +41,7 @@ const DonateButton = () => {
                         <br />
                         <small style={{color: "black"}}>IFSC : HDFC0002747</small>
                         <br />
-                        <small style={{color: "black"}}>Branch Nane: ISLAMPUR</small>
+                        <small style={{color: "black"}}>Branch Name: ISLAMPUR</small>
                     </div>
                 </div>
             </ModalHeader>

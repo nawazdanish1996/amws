@@ -29,7 +29,7 @@ const About = () => {
             <p className="text-start">The major focus areas for <span className="text-success fw-bolder">Goalpokher Al-Madad Welfare Society</span> are:</p>
             <div className="text-start ms-md-5" id="para">
               <p>1. To help poor and needy people.</p>
-              <p>2. To provide food and clothing for helpless orphans and windows of society.</p>
+              <p>2. To provide food and clothing for helpless orphans and widows of society.</p>
               <p>3. To provide education poor children.</p>
               <p>4. To get poor girls married</p>
             </div>

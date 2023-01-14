@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Aos from 'aos';
 import Marquee from "react-fast-marquee";
 // Sponsors
-import img1 from "../img/Sponsors/None_photo.jpeg";
+import demo from "../img/Sponsors/None_photo.jpeg";
 import Miraj from "../img/Sponsors/Meraj.jfif";
 import Samsad from "../img/Sponsors/Samsad.jfif";
 import Absar from "../img/Sponsors/Absar.jpg";
@@ -31,28 +31,7 @@ const RecentDonner = () => {
             name: "Md Nurul Huda",
             rs: 1100,
             date: "Each Month"
-        },
-        {
-            sl: 4,
-            imgSor: img1,
-            name: "..",
-            rs: "..",
-            date: ".."
-        },
-        {
-            sl: 5,
-            imgSor: img1,
-            name: "..",
-            rs: "..",
-            date: ".."
-        },
-        {
-            sl: 6,
-            imgSor: img1,
-            name: "..",
-            rs: "..",
-            date: ".."
-        },
+        }
     ];
 
     const onMouseEnterPause = () =>{
@@ -79,11 +58,25 @@ const RecentDonner = () => {
                     return(
                         
                             <div className="card boxes" style={{width: "10rem", margin: "0 auto"}}>
-                                <img loading='lazy' className="card-img-top" src={imgSor} alt="img" />
+                                {
+                                    imgSor === "" ?
+                                    <img loading='lazy' className="card-img-top" src={demo} alt="img" />
+                                    :
+                                    <img loading='lazy' className="card-img-top" src={imgSor} alt="img" />
+                                }
                                 <div className="card-body bg-info">
-                                    <h6 className="card-title text-dark">{name}</h6>
-                                    <p style={{marginTop: "-5px"}} class="card-text text-dark">Rs. {rs}</p>
-                                    <p style={{marginTop: "-18px"}} class="card-text text-dark">Date: {date}</p>
+                                    {
+                                        name === "" ? "" :
+                                        <h6 className="card-title text-dark">{name}</h6>
+                                    }
+                                    {
+                                        rs === "" ? "" :
+                                        <p style={{marginTop: "-5px"}} class="card-text text-dark">Rs. {rs}</p>
+                                    }
+                                    {
+                                        date === "" ? "" :
+                                        <p style={{marginTop: "-5px"}} class="card-text text-dark">Date: {date}</p>
+                                    }
                                 </div>
                             </div>
                     )

@@ -39,7 +39,7 @@ const MeetTheTeam = () => {
             sl: 5,
             name: "Md. Maroof Alam",
             imgSrc: img5,
-            post: "Voice-President"
+            post: "Vice-President"
         },
         {
             sl: 6,
@@ -62,7 +62,7 @@ const MeetTheTeam = () => {
 
   return (
     <div id='team'>
-        <div className="container mt-md-3" data-aos="fade-left">
+        <div className="container mt-md-3">
             <div className="row">
                 <div className="col-md-12 mb-3">
                     <h2 style={{ fontFamily: "cursive" }} className=" pt-3 pb-2 text-decoration-underline">Meet The Team</h2>
