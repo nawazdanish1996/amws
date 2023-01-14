@@ -18,13 +18,13 @@ const ImgSlider = () => {
     <div id='imgslider'>
     <div className="container">
         <div className="row">
-            <div className="col-md-3 p-md-2 mb-sm-3 mb-xs-3">
+            <div className="col-md-3 p-md-2 mt-3">
                 <h5 style={{fontFamily: "cursive"}}>How do you want to help the <span className='text-primary fw-bold'>needy people ?</span></h5>
                 <p className='mt-md-2 mb-md-3' style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
                 <DonateButton />
             </div>
             {/* d-none d-xl-block d-lg-block d-md-block */}
-            <div className='col-md-6 rounded mx-auto'>
+            <div className='col-md-6 rounded mx-auto mt-4'>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
