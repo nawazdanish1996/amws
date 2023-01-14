@@ -27,7 +27,7 @@ I'm a full-stack Web developer with hands on experience in MongoDB, Express, Rea
 - Donate Now button with popup details
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](page.png)
 
 
 ## Feedback
