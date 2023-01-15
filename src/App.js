@@ -4,20 +4,18 @@ import Footer from './components/Footer';
 import NavBars from './components/NavBars';
 // import RedirectButton from './components/RedirectButton';
 import ImgSlider from "./components/ImgSlider";
-import TopMarquee from './components/TopMarquee';
 import About from './components/About';
 import OurMission from './components/OurMission';
 import ContactUs from "./components/ContactUs";
 import Gallery from './components/Gallery';
 import SocialMedia from './components/SocialMedia';
-import UnderConstruction from './components/UnderConstruction';
 import { SyncLoader } from "react-spinners";
 // import Popup from './components/Popup';
 
 import MeetTheTeam from './components/MeetTheTeam';
 import Certifications from './components/Certifications';
 import RecentDonner from './components/RecentDonner';
-import VisitorAudio from './components/VisitorAudio';
+// import VisitorAudio from './components/VisitorAudio';
 import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
 
@@ -49,10 +47,8 @@ function App() {
       :
         <div className="App">
           <NavBars />
-          <UnderConstruction />
           {/* <Popup /> */}
-          <TopMarquee />
-          <VisitorAudio />
+          {/* <VisitorAudio /> */}
           <ImgSlider />
           <About />
           <OurMission />

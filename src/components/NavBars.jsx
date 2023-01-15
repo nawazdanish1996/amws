@@ -39,7 +39,7 @@ function NavBars() {
         <div>
             <Navbar 
                 fixed="top"
-                bg="dark" 
+                id="dark" 
                 variant="dark" 
                 expand="md" 
                 collapseOnSelect

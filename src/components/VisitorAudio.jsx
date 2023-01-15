@@ -9,7 +9,8 @@ const VisitorAudio = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 mb-2" style={{margin: "0  auto"}}>
-                    <audio controls autoplay loop 
+                    <audio controls autoplay loop
+                        controlsList="nodownload noplaybackrate"
                         style={{
                             width: "250px",
                             float: "right",

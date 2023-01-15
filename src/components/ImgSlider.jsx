@@ -1,11 +1,13 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
+import "../css/ImgSlider.css";
 import DonateButton from "./DonateButton";
-import first from "../img/slider/1.jfif";
-import second from "../img/slider/3.jfif";
-import third from "../img/slider/2.jfif";
-import forth from "../img/slider/4.jpg";
-import fifth from "../img/slider/5.jfif";
+// import first from "../img/slider/1.jfif";
+// import second from "../img/slider/3.jfif";
+// import third from "../img/slider/2.jfif";
+// import forth from "../img/slider/4.jpg";
+// import fifth from "../img/slider/5.jfif";
+import TopMarquee from './TopMarquee';
 
 const ImgSlider = () => {
 
@@ -18,13 +20,30 @@ const ImgSlider = () => {
     <div id='imgslider'>
     <div className="container">
         <div className="row">
-            <div className="col-md-3 p-md-2 mt-3">
+            <TopMarquee />
+        </div>
+        <div className="row mt-md-5 mb-md-5">
+            <div className="col-md-3 mt-md-5">
+                <p className='text-white' style={{textAlign: "justify"}}>Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
+            </div>
+            <div className="col-md-6"></div>
+            <div className="col-md-3 mt-md-5">
+                <h4 className='text-white text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Number</h4>
+                <p className='text-info fw-bold ' style={{marginTop: "0px"}}>+91-9614416523</p>
+                <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-6296863789</p>
+                <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p>
+            </div>
+        </div>
+        <div className="row mt-5">
+            <DonateButton />
+        </div>
+            {/* <div className="col-md-3 p-md-2 mt-3">
                 <h5 style={{fontFamily: "cursive"}}>How do you want to help the <span className='text-primary fw-bold'>needy people ?</span></h5>
                 <p className='mt-md-2 mb-md-3' style={{textAlign: "justify"}}>our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
                 <DonateButton />
-            </div>
+            </div> */}
             {/* d-none d-xl-block d-lg-block d-md-block */}
-            <div className='col-md-6 rounded mx-auto mt-4'>
+            {/* <div className='col-md-6 rounded mx-auto mt-4'>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,12 +54,12 @@ const ImgSlider = () => {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={first} className="d-block w-100" alt="..." />
+                            <img src={first} className="d-block w-100" alt="..." /> */}
                             {/* <div className="carousel-caption d-none d-md-block">
                                 <h5>Im Nawaz Danish</h5>
                                 <p>olodhn</p>
                             </div> */}
-                        </div>
+                        {/* </div>
                         <div className="carousel-item">
                             <img src={second} className="d-block w-100" alt="..." />
                         </div>
@@ -63,9 +82,9 @@ const ImgSlider = () => {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="col-md-3 mt-3">
+            {/* <div className="col-md-3 mt-3">
                 <h4 className='text-primary text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Number</h4>
                 <h6 className='text-success mt-3'>Md. Nurul Huda</h6>
                 <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-9614416523</p>
@@ -73,8 +92,8 @@ const ImgSlider = () => {
                 <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-6296863789</p>
                 <h6 className='text-success mt-3'>Nisar Ahmad Noor</h6>
                 <p className=' fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p>
-            </div>
-        </div>
+            </div> */}
+        {/* </div> */}
     </div>
     </div>
   )
