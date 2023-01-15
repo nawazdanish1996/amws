@@ -8,6 +8,7 @@ import DonateButton from "./DonateButton";
 // import forth from "../img/slider/4.jpg";
 // import fifth from "../img/slider/5.jfif";
 import TopMarquee from './TopMarquee';
+import VisitorAudio from "./VisitorAudio";
 
 const ImgSlider = () => {
 
@@ -22,8 +23,11 @@ const ImgSlider = () => {
         <div className="row">
             <TopMarquee />
         </div>
+        <div className="row">
+            <VisitorAudio />
+        </div>
         <div className="row mt-md-5 mb-md-5">
-            <div className="col-md-3 mt-md-5">
+            <div className="col-md-3 mt-md-5 mb-3">
                 <p className='text-white' style={{textAlign: "justify"}}>Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
             </div>
             <div className="col-md-6"></div>

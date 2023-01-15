@@ -15,7 +15,6 @@ import { SyncLoader } from "react-spinners";
 import MeetTheTeam from './components/MeetTheTeam';
 import Certifications from './components/Certifications';
 import RecentDonner from './components/RecentDonner';
-// import VisitorAudio from './components/VisitorAudio';
 import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
 
@@ -48,7 +47,6 @@ function App() {
         <div className="App">
           <NavBars />
           {/* <Popup /> */}
-          {/* <VisitorAudio /> */}
           <ImgSlider />
           <About />
           <OurMission />

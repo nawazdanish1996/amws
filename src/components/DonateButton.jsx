@@ -16,7 +16,9 @@ const DonateButton = () => {
         {/* <div className="button-85">Mister</div> */}
 
         <button className='buttonDonate' onClick={() => setModal(true)}>
-            Donate Now
+            <i class="fa-solid fa-handshake-angle fs-5"></i>
+            <span className='ms-3 fs-5'>Donate Now</span>
+            
         </button>
         <Modal isOpen={modal} toggle={() => setModal(!modal)}>
             <ModalHeader toggle={() => setModal(!modal)}>
