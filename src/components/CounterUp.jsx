@@ -29,7 +29,7 @@ const CounterUp = () => {
                                 start={0} 
                                 end={150}
                                 delay={0} 
-                                duration={5}
+                                duration={4}
                                 />
                             }
                             <span>+</span>
@@ -46,7 +46,7 @@ const CounterUp = () => {
                                     start={0} 
                                     end={4} 
                                     delay={0}
-                                    duration={3} 
+                                    duration={4} 
                                 />
                             }
                             <span>+</span>
@@ -63,7 +63,7 @@ const CounterUp = () => {
                                     start={0}
                                     end={527}
                                     delay={0} 
-                                    duration={3}
+                                    duration={4}
                                 />
                             }
                             <span>+</span>
