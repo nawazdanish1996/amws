@@ -17,6 +17,7 @@ import Certifications from './components/Certifications';
 import RecentDonner from './components/RecentDonner';
 import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
+import CounterUp from './components/CounterUp';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -55,6 +56,7 @@ function App() {
           <Certifications />
           <MeetTheTeam />
           <ContactUs />
+          <CounterUp />
           <Footer />
           {/* <RedirectButton /> */}
           <SocialMedia />
