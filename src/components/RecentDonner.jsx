@@ -56,29 +56,61 @@ const RecentDonner = () => {
                 {obj.map((val, ind)=>{
                     const {name, rs, date, imgSor} = val;
                     return(
-                        
-                            <div className="card boxes" style={{width: "10rem", margin: "0 auto"}}>
-                                {
-                                    imgSor === "" ?
-                                    <img loading='lazy' className="card-img-top" src={demo} alt="img" />
-                                    :
-                                    <img loading='lazy' className="card-img-top" src={imgSor} alt="img" />
+                        <div className='card shadow-lg ms-2 boxes p-2' key={ind} style={{width: "10rem", margin: "0 auto"}}>
+                            {
+                                imgSor === "" ?
+                                <img style={{
+                                        width: "70px",
+                                        borderRadius: "20px",
+                                        margin: "0 auto"
+                                     }} loading='lazy' className="card-img-top" src={demo} alt="img" />
+                                :
+                                <img style={{
+                                        width: "70px",
+                                        borderRadius: "20px",
+                                        margin: "0 auto"
+                                    }} loading='lazy' className="card-img-top" src={imgSor} alt="img" />
+                            }
+                            <div>
+                                { name === "" ? "":
+                                    <h6 style={{marginTop: "5px", color: "#4F0341"}}>{name}</h6>
                                 }
-                                <div className="card-body bg-info">
-                                    {
-                                        name === "" ? "" :
-                                        <h6 className="card-title text-dark">{name}</h6>
-                                    }
-                                    {
-                                        rs === "" ? "" :
-                                        <p style={{marginTop: "-5px"}} class="card-text text-dark">Rs. {rs}</p>
-                                    }
-                                    {
-                                        date === "" ? "" :
-                                        <p style={{marginTop: "-15px"}} class="card-text text-dark">Date: {date}</p>
-                                    }
-                                </div>
+                                {rs === "" ? "" :
+                                <p style={{marginTop: "-8px", color: "black"}}>Rs. {rs}</p>
+                                }
+                                {date === "" ? "" :
+                                <p style={{marginTop: "-18px", color: "black"}}>Date: {date}</p>
+                                }
                             </div>
+                        </div>
+                        
+                            // <div className="card boxes" 
+                            //     style={{
+                            //         width: "10rem", 
+                            //         margin: "0 auto",
+                            //     }}>
+                            //     {
+                            //         imgSor === "" ?
+                            //         <img 
+                            //         loading='lazy' className="card-img-top" src={demo} alt="img" />
+                            //         :
+                            //         <img loading='lazy' className="card-img-top" src={imgSor} alt="img" />
+                            //     }
+                            //     <div className="card-body bg-info">
+                            //         {
+                            //             name === "" ? "" :
+                            //             <h6 className="card-title text-dark">{name}</h6>
+                            //         }
+                            //         {
+                            //             rs === "" ? "" :
+                            //             <p style={{marginTop: "-5px"}} class="card-text text-dark">Rs. {rs}</p>
+                            //         }
+                            //         {
+                            //             date === "" ? "" :
+                            //             <p style={{marginTop: "-15px"}} class="card-text text-dark">Date: {date}</p>
+                            //         }
+                            //     </div>
+                            // </div>
                     )
                 })}
                 </Marquee>

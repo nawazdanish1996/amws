@@ -8,7 +8,7 @@ import DonateButton from "./DonateButton";
 // import forth from "../img/slider/4.jpg";
 // import fifth from "../img/slider/5.jfif";
 import TopMarquee from './TopMarquee';
-import VisitorAudio from "./VisitorAudio";
+// import VisitorAudio from "./VisitorAudio";
 
 const ImgSlider = () => {
 
@@ -18,21 +18,21 @@ const ImgSlider = () => {
 
 
   return (
-    <div id='imgslider'>
+    <div id='fat' data-spy="scroll" className='home imgslider'>
     <div className="container">
         <div className="row">
             <TopMarquee />
         </div>
         <div className="row">
-            <VisitorAudio />
+            {/* <VisitorAudio /> */}
         </div>
         <div className="row mt-md-5 mb-md-5">
-            <div className="col-md-3 mt-md-5 mb-3">
-                <p className='text-white' style={{textAlign: "justify"}}>Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
+            <div className="col-md-4 mt-md-5 mb-3">
+                <p className='p-3' id="text">Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
             </div>
-            <div className="col-md-6"></div>
-            <div className="col-md-3 mt-md-5">
-                <h4 className='text-white text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Number</h4>
+            <div className="col-md-4"></div>
+            <div className="col-md-4 mt-md-5">
+                <h4 className='text-white text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Numbers</h4>
                 <p className='text-info fw-bold ' style={{marginTop: "0px"}}>+91-9614416523</p>
                 <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-6296863789</p>
                 <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p>

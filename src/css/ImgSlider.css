@@ -1,4 +1,4 @@
-#imgslider{
+.imgslider{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.jpg");
     background-position: center;
     background-size: cover;
@@ -7,4 +7,16 @@
     height: 100vh;
     padding-top: 60px;
     box-shadow: 0 0 20px 0 black;
+}
+
+#text{
+    text-align: justify;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgb(220, 203, 203);
+    box-shadow: 0 0 5px #4F0341;
+}
+
+#text:hover{
+    color: white;
 }
