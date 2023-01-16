@@ -10,7 +10,7 @@ function Footer() {
           <div className="col-md-12">
               <div className="float-start">
                 <span>Visitors: </span>
-                <img style={{width: "150px"}} src="https://hitwebcounter.com/counter/counter.php?page=8136709&style=0009&nbdigits=9&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" />
+                <img style={{width: "150px"}} src="https://hitwebcounter.com/counter/counter.php?page=8142733&style=0009&nbdigits=9&type=page&initCount=1620" title="Free Counter" Alt="web counter"   border="0" />
               </div>
               <br />
               <br />
