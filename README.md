@@ -1,5 +1,5 @@
 
-# Hi, I'm Nawaz Danish! 👋a
+# Hi, I'm Nawaz Danish! 👋
 
 
 ## 🚀 About Me

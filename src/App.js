@@ -18,6 +18,7 @@ import RecentDonner from './components/RecentDonner';
 import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
 import CounterUp from './components/CounterUp';
+import WayToGive from './components/WayToGive';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -53,6 +54,7 @@ function App() {
           <OurMission />
           <Gallery />
           <RecentDonner />
+          <WayToGive />
           <Certifications />
           <MeetTheTeam />
           <ContactUs />

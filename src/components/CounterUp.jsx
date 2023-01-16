@@ -78,4 +78,4 @@ const CounterUp = () => {
   )
 }
 
-export default CounterUp
+export default CounterUp;

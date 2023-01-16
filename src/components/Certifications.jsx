@@ -48,11 +48,15 @@ const Certifications = () => {
 
   return (
     <div id="award">
-      <div className="container pt-3 pb-2">
+      <div className="container pb-2">
         <div className="row">
           
           <div className="col-md-12">
-            <h1>Certifications & Achivements</h1>
+            <h2 style={{ fontFamily: "cursive" }}
+                    className="pb-2 text-decoration-underline"
+                    >
+                    Certifications & Achivements
+                </h2>
           </div>
 
           {
