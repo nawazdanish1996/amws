@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.872360dc.css",
-    "main.js": "/static/js/main.f3e10b4d.js",
+    "main.css": "/static/css/main.6766100e.css",
+    "main.js": "/static/js/main.126a56fc.js",
     "static/js/845.4fbf7743.chunk.js": "/static/js/845.4fbf7743.chunk.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/80g12a.pdf": "/static/media/80g12a.61d53d38c789fbd629e4.pdf",
@@ -33,20 +33,22 @@
     "static/media/whatsapp.png": "/static/media/whatsapp.d026940870fb334920b7.png",
     "static/media/socialMediaSound.mp3": "/static/media/socialMediaSound.c0af2dccd7411c4f06d2.mp3",
     "static/media/themeChange.mp3": "/static/media/themeChange.1aea1803ea480944b186.mp3",
+    "static/media/donate.png": "/static/media/donate.67e5f2c453c00620ff2f.png",
     "static/media/visitorSound.mpeg": "/static/media/visitorSound.b88c06f4cf3b4c693d1d.mpeg",
+    "static/media/support.png": "/static/media/support.c1f9e5920977f361e0fa.png",
     "static/media/success_sound.mp3": "/static/media/success_sound.a4aa05a5f146d082d6be.mp3",
     "static/media/google-pay.png": "/static/media/google-pay.f6875d0f4df6e0ae4a6d.png",
     "static/media/facebook.png": "/static/media/facebook.a5def58db1e9c1b38269.png",
     "static/media/error_sound.mp3": "/static/media/error_sound.99810f37158157c80826.mp3",
     "static/media/clickSound.mp3": "/static/media/clickSound.a8f61448426f23c99ed6.mp3",
     "index.html": "/index.html",
-    "main.872360dc.css.map": "/static/css/main.872360dc.css.map",
-    "main.f3e10b4d.js.map": "/static/js/main.f3e10b4d.js.map",
+    "main.6766100e.css.map": "/static/css/main.6766100e.css.map",
+    "main.126a56fc.js.map": "/static/js/main.126a56fc.js.map",
     "845.4fbf7743.chunk.js.map": "/static/js/845.4fbf7743.chunk.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.872360dc.css",
-    "static/js/main.f3e10b4d.js"
+    "static/css/main.6766100e.css",
+    "static/js/main.126a56fc.js"
   ]
 }
