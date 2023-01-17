@@ -1,5 +1,6 @@
 #supportImg{
     width: 60px;
+    user-select: none;
     cursor: pointer;
     transition: .2s linear;
 }

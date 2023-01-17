@@ -19,6 +19,8 @@ import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
 import CounterUp from './components/CounterUp';
 import WayToGive from './components/WayToGive';
+// import AdvOne from "./components/Adv1";
+// import AdvTwo from "./components/Adv2";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -50,7 +52,9 @@ function App() {
           <NavBars />
           {/* <Popup /> */}
           <ImgSlider />
+          {/* <AdvOne /> */}
           <About />
+          {/* <AdvTwo /> */}
           <OurMission />
           <Gallery />
           <RecentDonner />
