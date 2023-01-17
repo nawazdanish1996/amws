@@ -73,7 +73,7 @@ const MeetTheTeam = () => {
                     const {name, imgSrc, post} = val;
                     return(
                         <div className="col-md-3 mb-4">
-                        <div key={ind} className="card box" style={{width: "15rem", margin: "0 auto"}}>
+                        <div key={ind} className="card box" style={{width: "15rem", margin: "0 auto", userSelect: "none"}}>
                             <img style={{borderRadius: "20px 20px 0 0"}} loading='lazy' className="card-img-top" src={imgSrc} alt="img" />
                             <div className="card-body bg-white">
                                 <h5 className="card-title text-dark">{name}</h5>

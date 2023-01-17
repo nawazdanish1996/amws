@@ -18,7 +18,7 @@ const ImgSlider = () => {
 
 
   return (
-    <div id='fat' data-spy="scroll" className='home imgslider'>
+    <div className='home imgslider'>
     <div className="container">
         <div className="row">
             <TopMarquee />

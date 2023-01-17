@@ -65,7 +65,7 @@ const Certifications = () => {
               return(
                 <div className="col-md-6 p-2 con" key={index}>
                   <a href={srcImg} target="blank">
-                    <button className='p-2' style={{margin: "0 auto"}}>
+                    <button className='p-2' style={{margin: "0 auto", userSelect: "none"}}>
                       <span>
                         {name}
                         <br />

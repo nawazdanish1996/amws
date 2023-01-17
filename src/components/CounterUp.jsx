@@ -20,7 +20,7 @@ const CounterUp = () => {
         <div className="container">
             <div className="row">
 
-                <div className="col-md-4 p-5 mi">
+                <div className="col-md-4 p-5 mi" data-aos="fade-right">
                         <h1 className='text-warning'>
                             {
                             counterOn &&
@@ -37,7 +37,7 @@ const CounterUp = () => {
                     <h6 style={{color: "#7f8c8d"}}>Volunteers Engaged this Year</h6>
                 </div>
 
-                <div className="col-md-4 p-5 mi">
+                <div className="col-md-4 p-5 mi" data-aos="fade-up">
                         <h1 className='text-warning'>
                             {
                                 counterOn &&
@@ -54,7 +54,7 @@ const CounterUp = () => {
                     <h6 style={{color: "#7f8c8d"}}>Years of Voluntary Service</h6>
                 </div>
 
-                <div className="col-md-4 p-5 mi">
+                <div className="col-md-4 p-5 mi" data-aos="fade-left">
                         <h1 className='text-warning'>
                             {
                                 counterOn &&
