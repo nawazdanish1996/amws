@@ -20,7 +20,7 @@ const OurMission = () => {
             </h2>
           </div>
 
-          <div className="col-md-4 p-2" data-aos="fade-right">
+          <div className="col-md-4 p-2">
             <div className="box pt-3 pb-3 p-4">
               {/* <h4>Main</h4> */}
               <p className="mt-3" style={{fontSize: "15px"}}>
@@ -32,7 +32,7 @@ const OurMission = () => {
             </div>
           </div>
 
-          <div className="col-md-4 p-2" data-aos="fade-up">
+          <div className="col-md-4 p-2">
             <div className="box pt-3 pb-3 p-4">
               {/* <h4>Main</h4> */}
               <p className="mt-3" style={{fontSize: "15px"}}>
@@ -44,7 +44,7 @@ const OurMission = () => {
             </div>
           </div>
 
-          <div className="col-md-4 p-2" data-aos="fade-left">
+          <div className="col-md-4 p-2">
             <div className="box pt-3 pb-3 p-4">
               {/* <h4>Main</h4> */}
               <p className="mt-3" style={{ fontSize: "15px" }}>

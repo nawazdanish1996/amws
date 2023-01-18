@@ -23,7 +23,7 @@ const WayToGive = () => {
         <div className="container p-3 p-md-5">
             <div className="row">
 
-                <div className="col-md-12" data-aos="fade-up">
+                <div className="col-md-12">
                     <h2 style={{ fontFamily: "cursive" }}
                     className=" pt-3 pb-2 text-decoration-underline"
                     >
@@ -31,7 +31,7 @@ const WayToGive = () => {
                     </h2>
                 </div>
 
-                <div className="col-md-6 p-3" data-aos="fade-right">
+                <div className="col-md-6 p-3">
                     <img 
                         src={donate} 
                         alt="Donate"
@@ -42,7 +42,7 @@ const WayToGive = () => {
                     <p style={{textAlign: "justify"}}>Unrestricted gifts to the Fund have an immediate impact. Funds are applied where they are needed most.</p>
                 </div>
 
-                <div className="col-md-6 p-3" data-aos="fade-left">
+                <div className="col-md-6 p-3">
                     <img 
                         src={support} 
                         alt="support"
