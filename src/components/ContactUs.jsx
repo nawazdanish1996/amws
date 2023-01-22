@@ -69,17 +69,6 @@ const ContactUs = () => {
           </div>
 
           <div className="col-md-4">
-            <Iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d662.6203631786674!2d88.10921218654532!3d26.074439593630736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e51f4c299bf453%3A0x2785be3862550d97!2sNurul%20CSC!5e1!3m2!1sen!2sin!4v1672826273315!5m2!1sen!2sin" 
-              className="w-100 h-100"
-              display="block"
-              loading="lazy" 
-              position="relative"
-              referrerPolicy="no-referrer-when-downgrade"
-              />
-          </div>
-
-          <div className="col-md-4 mt-4">
                   <h6 className='text-uppercase text-decoration-underline'>Office Address</h6>
                   <br />
                   <p>Lodhan Chowk, Goalpokher</p>
@@ -87,7 +76,7 @@ const ContactUs = () => {
                   <p>733210</p>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-6">
             <h6 className='text-uppercase text-decoration-underline'>Contact Us</h6>
 
             <form ref={form}>
@@ -102,6 +91,17 @@ const ContactUs = () => {
               <button onClick={submitHandler} className='btn btn-success' type="submit">Submit</button>
               <button onClick={clearHandler} className='btn btn-success ms-2' type="reset">Reset</button>
             </form>
+          </div>
+
+          <div className="col-md-12 mb-5 mt-5" style={{height: "50vh"}}>
+            <Iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d662.6203631786674!2d88.10921218654532!3d26.074439593630736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e51f4c299bf453%3A0x2785be3862550d97!2sNurul%20CSC!5e1!3m2!1sen!2sin!4v1672826273315!5m2!1sen!2sin" 
+              className="w-100 h-100"
+              display="block"
+              loading="lazy" 
+              position="relative"
+              referrerPolicy="no-referrer-when-downgrade"
+              />
           </div>
 
         </div>
