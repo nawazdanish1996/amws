@@ -72,14 +72,12 @@ const MeetTheTeam = () => {
                 TeamData.map((val, ind)=>{
                     const {name, imgSrc, post} = val;
                     return(
-                        <div className="col-md-3 mb-4">
-                        <div key={ind} className="card box" style={{width: "15rem", margin: "0 auto", userSelect: "none"}}>
-                            <img style={{borderRadius: "20px 20px 0 0"}} loading='lazy' className="card-img-top" src={imgSrc} alt="img" />
-                            <div className="card-body bg-white">
-                                <h5 className="card-title text-dark">{name}</h5>
-                                <p class="card-text text-dark">{post}</p>
+                        <div key={ind} className="card box mb-3" style={{width: "15rem", margin: "0 auto", userSelect: "none"}}>
+                            <img loading='lazy' class="card-img-top" src={imgSrc} alt="img" />
+                            <div className="card-body">
+                                <h5 className="card-title">{name}</h5>
+                                <p class="card-text">{post}</p>
                             </div>
-                        </div>
                         </div>
                     )
                 })

@@ -10,6 +10,7 @@ import useSound from 'use-sound';
 import boopSfx from "../sound/themeChange.mp3";
 import btnClick from "../sound/clickSound.mp3";
 
+
 function NavBars() {
     const [mode, setMode] = useState(Dark);
     const [play] = useSound(boopSfx);
@@ -47,7 +48,11 @@ function NavBars() {
                 <Navbar.Brand className='ms-5'>
                     <a href="/" className='text-decoration-none d-flex '>
                         {/* <p>Al-Madad Welfare Society</p> */}
-                        <img style={{width: "40px"}} src={logo} alt="logo" />
+                        <img 
+                            style={{width: "40px"}} 
+                            src={logo} 
+                            alt="logo" 
+                        />
                     </a>
                 </Navbar.Brand>
                 <img className='ms-5 ms-auto me-4' onClick={Mode} src={mode} alt="Mode" style={{width: "30px", cursor: "pointer"}} />
