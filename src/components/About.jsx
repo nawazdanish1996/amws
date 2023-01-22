@@ -39,7 +39,7 @@ const About = () => {
             <div class="about-us-container">
               <div class="about-us-content">
                 <p><span className="text-success fw-bolder">Goalpokher Al-Madad Welfare Society</span> is a non-profit organization dedicated to improving the lives of underprivileged individuals and communities in and around Goalpokher. Our mission is to provide access to education, healthcare, and other basic necessities to those in need, and to empower them to build a better future for themselves and their families.</p>
-                <p>We have been working in the area for over 10 years and have established strong partnerships with local organizations, government agencies, and businesses. Our team is made up of dedicated volunteers and staff who are committed to making a positive impact in the lives of those we serve.</p>
+                <p>We have been working in the area for over 4+ years and have established strong partnerships with local organizations, government agencies, and businesses. Our team is made up of dedicated volunteers and staff who are committed to making a positive impact in the lives of those we serve.</p>
                 <p>Our programs include providing access to education, healthcare, and other basic necessities to those in need, and to empower them to build a better future for themselves and their families. We also run various programs for women and children in the area.</p>
                 <p>We rely on the generosity of donors and volunteers to continue our work. If you're interested in making a difference in the lives of those in need, please consider supporting our mission through a donation or by volunteering your time and skills.</p>
               </div>
