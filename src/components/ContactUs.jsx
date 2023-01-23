@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react';
 import Aos from 'aos';
 import swal from 'sweetalert';
-import Iframe from 'react-iframe'
+import Iframe from 'react-iframe';
 import useSound from 'use-sound';
 import boopSfx from "../sound/error_sound.mp3";
 import successSound from "../sound/success_sound.mp3";

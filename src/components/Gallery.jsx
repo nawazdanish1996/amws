@@ -13,6 +13,7 @@ import img9 from "../img/gallery/9.jfif";
 import img10 from "../img/gallery/10.jfif";
 import img11 from "../img/gallery/11.jfif";
 import img12 from "../img/gallery/12.jfif";
+import VideoPlay from './VideoPlay';
 
 
 
@@ -117,6 +118,8 @@ const Gallery = () => {
 
         </div>
       </div>
+
+      <VideoPlay />
     </div>
   )
 }
