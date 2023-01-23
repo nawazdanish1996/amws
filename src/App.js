@@ -41,7 +41,7 @@ function App() {
         loading ?
         <div id='loader'>
           <h5>
-            <span style={{color: "#ff9933"}}>Al-Madad </span>
+            <span style={{color: "#ff9933"}}>G. Al-Madad </span>
             <span style={{color: "#ffffff"}}>Welfare </span>
             <span style={{color: "#138808"}}>Society</span>
           </h5>

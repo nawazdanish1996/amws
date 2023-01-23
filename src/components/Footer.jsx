@@ -16,7 +16,7 @@ function Footer() {
               <br />
               <small>Copyright &copy; - 2023</small>
               <br />
-              <small>All Rights Reserved by <span className='text-success'>Al-Madad Welfare Society</span></small>
+              <small>All Rights Reserved By <span className='text-success'>Goalpokher Al-Madad Welfare Society</span></small>
               <br />
 
               <small>Developed By: &nbsp;

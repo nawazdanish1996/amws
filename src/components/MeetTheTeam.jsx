@@ -31,7 +31,7 @@ const MeetTheTeam = () => {
         },
         {
             sl: 4,
-            name: "Arman Danish Noori",
+            name: "Armania Danish Noori",
             imgSrc: img4,
             post: "Assit. Secretary"
         },
