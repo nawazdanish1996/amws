@@ -9,7 +9,6 @@ import OurMission from './components/OurMission';
 import ContactUs from "./components/ContactUs";
 import Gallery from './components/Gallery';
 import SocialMedia from './components/SocialMedia';
-import { SyncLoader } from "react-spinners";
 // import Popup from './components/Popup';
 
 import MeetTheTeam from './components/MeetTheTeam';
@@ -19,6 +18,7 @@ import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
 import CounterUp from './components/CounterUp';
 import WayToGive from './components/WayToGive';
+import SpinnerLoader from './components/SpinnerLoader';
 // import AdvOne from "./components/Adv1";
 // import AdvTwo from "./components/Adv2";
 
@@ -39,14 +39,7 @@ function App() {
     <div>
       {
         loading ?
-        <div id='loader'>
-          <h5>
-            <span style={{color: "#ff9933"}}>G. Al-Madad </span>
-            <span style={{color: "#ffffff"}}>Welfare </span>
-            <span style={{color: "#138808"}}>Society</span>
-          </h5>
-          <SyncLoader color={"#fff"} loading={loading} size={10} />
-        </div>
+        <SpinnerLoader loading={loading} />
       :
         <div className="App">
           <NavBars />
