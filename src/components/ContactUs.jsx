@@ -68,7 +68,7 @@ const ContactUs = () => {
             <h2 style={{fontFamily: "cursive"}} className='text-decoration-underline'>Contact Us</h2>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-6">
                   <h6 className='text-uppercase text-decoration-underline'>Office Address</h6>
                   <br />
                   <p>Lodhan Chowk, Goalpokher</p>
@@ -78,7 +78,6 @@ const ContactUs = () => {
 
           <div className="col-md-6">
             <h6 className='text-uppercase text-decoration-underline'>Contact Us</h6>
-
             <form ref={form}>
               <div className='form-group'>
                 <input onChange={(e)=> setName(e.target.value)} value={name} aria-describedby="mobileHelp" name='name' className='input-group-text mb-1 text-center w-100' type="text" placeholder='Name' />
