@@ -16,11 +16,27 @@
 
 #socialMedida a:hover{
     background-color: #16a085;
+    width: 5rem;
 }
 
-
 #socialMedida a img{
-    width: 30px;
+    width: 40px;
+}
+
+#socialMedida a img:hover{
+    animation: socialMediaIconRotate 4s linear infinite;
+}
+
+@keyframes socialMediaIconRotate{
+    33.33%{
+        rotate: 120deg;
+    }
+    66.66%{
+        rotate: 240deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
 }
 
 @media (max-width: 600px){

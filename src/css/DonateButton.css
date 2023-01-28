@@ -12,6 +12,19 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   cursor: pointer;
+  animation: rota 2s linear infinite;
+}
+
+.buttonDonate:hover{
+  animation: none;
+}
+@keyframes rota{
+  50%{
+    rotate: 2deg;
+  }
+  100%{
+    rotate: -0.01turn;
+  }
 }
 
 .buttonDonate:before {

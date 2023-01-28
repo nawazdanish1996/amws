@@ -10,13 +10,40 @@
 }
 
 #text{
-    text-align: justify;
+    font-size: 25px;
+    font-weight: bold;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     color:rgb(220, 203, 203);
-    box-shadow: 0 0 5px #4F0341;
+    /* box-shadow: 0 0 5px yellow; */
+    animation: shadow1 2s linear infinite;
 }
 
-#text:hover{
-    color: white;
+#num{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: numb 2s linear infinite;
+}
+
+@keyframes shadow1{
+    0%{
+        box-shadow: 0 0 10px purple;
+    }
+    25%{
+        box-shadow: 0 0 10px yellow;
+    }
+    75%{
+        box-shadow: 0 0 10px red;
+    }
+}
+@keyframes numb{
+    0%{
+        box-shadow: 0 0 10px purple;
+    }
+    25%{
+        box-shadow: 0 0 10px yellow;
+    }
+    75%{
+        box-shadow: 0 0 10px red;
+    }
 }

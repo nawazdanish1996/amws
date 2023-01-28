@@ -1,3 +1,7 @@
+#logoOne{
+    animation: rot 7s linear infinite;
+}
+
 #dark{
     background-color: #4F0341;
 }
@@ -23,6 +27,18 @@
 
 .offcan{
     font-size: 15px;
+}
+
+@keyframes rot{
+    33.33%{
+        rotate: 120deg;
+    }
+    66.66%{
+        rotate: 240deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
 }
 
 @media (max-width: 767px) {

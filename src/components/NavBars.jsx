@@ -51,27 +51,13 @@ function NavBars() {
                         <img 
                             style={{width: "40px"}} 
                             src={logo} 
-                            alt="logo" 
+                            alt="logo"
+                            id="logoOne" 
                         />
                     </a>
                 </Navbar.Brand>
                 <img className='ms-5 ms-auto me-4' onClick={Mode} src={mode} alt="Mode" style={{width: "30px", cursor: "pointer"}} />
                 <Navbar.Toggle className="coloring" />
-
-                {/* <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand`}
-              aria-labelledby={`offcanvasNavbarLabel-expand`}
-              placement="end" className="toggleDark">
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>
-                    <small className='offcan'>
-                        <span style={{color: "#ff9933"}}>Al-Madad </span>
-                        <span style={{color: "white"}}>Welfare </span>
-                        <span style={{color: "#138808"}}>Society</span>
-                    </small>
-                </Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body> */}
 
                 <Navbar.Collapse>
                     <Nav className='ms-auto me-5 text-center' navbarScroll>
@@ -85,10 +71,6 @@ function NavBars() {
                         <Nav.Link onClick={clkBtn} id="achorTag" className="fw-bold" href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-
-            {/* </Offcanvas.Body>
-            </Navbar.Offcanvas> */}
-
             </Navbar>
         </div>
     </div>

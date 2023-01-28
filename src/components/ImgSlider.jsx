@@ -28,17 +28,22 @@ const ImgSlider = () => {
         </div>
         <div className="row mt-md-5 mb-md-5">
             <div className="col-md-4 mt-md-5 mb-3">
-                <p className='p-3' id="text">Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p>
+                <p className="p-2" id="text">
+                    We can't help everyone but, everyone can help someone.
+                </p>
+                {/* <p className='p-3' id="text">Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p> */}
             </div>
             <div className="col-md-4"></div>
             <div className="col-md-4 mt-md-5">
-                <h4 className='text-white text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Numbers</h4>
-                <p className='text-info fw-bold ' style={{marginTop: "0px"}}>+91-9614416523</p>
-                <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-6296863789</p>
-                <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p>
+                <div className='p-2' id="num">
+                    <h4 className='text-white text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Numbers</h4>
+                    <p className='text-info fw-bold ' style={{marginTop: "0px"}}>+91-9614416523</p>
+                    <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-6296863789</p>
+                    <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p>
+                </div>
             </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-2">
             <DonateButton />
         </div>
             {/* <div className="col-md-3 p-md-2 mt-3">
