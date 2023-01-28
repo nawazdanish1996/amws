@@ -31,7 +31,7 @@ const MeetTheTeam = () => {
         },
         {
             sl: 4,
-            name: "Armania Danish Noori",
+            name: "Arman Danish Noori",
             imgSrc: img4,
             post: "Assit. Secretary"
         },
@@ -49,7 +49,7 @@ const MeetTheTeam = () => {
         },
         {
             sl: 7,
-            name: "Arif Ahmed",
+            name: "Sohrab Alam",
             imgSrc: img7,
             post: "Program Associate"
         },

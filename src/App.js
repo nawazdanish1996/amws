@@ -45,8 +45,8 @@ function App() {
           <NavBars />
           {/* <Popup /> */}
           <ImgSlider />
-          {/* <AdvOne /> */}
           <About />
+          {/* <AdvOne /> */}
           {/* <AdvTwo /> */}
           <OurMission />
           <Gallery />

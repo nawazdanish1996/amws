@@ -14,6 +14,9 @@ const VideoPlay = () => {
         },
         {
             link: "https://www.youtube.com/watch?v=EJQYYWKy1t4"
+        },
+        {
+            link: "https://youtu.be/kmEkybTKrMg"
         }
     ];
 

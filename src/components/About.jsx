@@ -20,7 +20,7 @@ const About = () => {
             </h2>
             <p style={{textAlign: "justify"}}>
               <span className="text-success fw-bolder mt-2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Goalpokher Al-Madad Welfare Society</span> is a non-political, non-profit organisation committed to help the needy people. <span>Gaolpokher Al-Madad Welfare Society</span> began in January 2019 but we registered in October 2020 in a
-              remote village in Mukhtar Bhita in the Uttar Dinajpur District, West Bengal. It was registered under The West Bengal Societies Registration Act, 1961 and Its
+              remote village of Uttar Dinajpur District, West Bengal. It was registered under The West Bengal Societies Registration Act, 1961 and Its
               office is now located at Lodhan Chowk, Goalpokher, Uttar Dinajpur, West Bengal.
               <span> Gaolpokher Al-Madad Welfare Society</span> is now working in over 30 villages.
               Our committee members are the unsung heroes of society, using their passion and resources to create positive change where government alone cannot reach.

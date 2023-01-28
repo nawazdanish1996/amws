@@ -2,10 +2,12 @@ import React, {useState, useEffect} from 'react';
 import Aos from 'aos';
 import Marquee from "react-fast-marquee";
 // Sponsors
-import demo from "../img/Sponsors/None_photo.jpeg";
 import Miraj from "../img/Sponsors/Meraj.jfif";
 import Samsad from "../img/Sponsors/Samsad.jfif";
 import Absar from "../img/Sponsors/Absar.jpg";
+import Arman from "../img/Sponsors/Arman.jfif"
+import Sohrab from "../img/Sponsors/Sohrab.jfif";
+import Guddu from "../img/Sponsors/Guddu.jpg";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
@@ -31,7 +33,28 @@ const RecentDonner = () => {
             name: "Md Nurul Huda",
             rs: 1100,
             date: "Each Month"
-        }
+        },
+        {
+            sl: 4,
+            imgSor: Arman,
+            name: "Arman D. Noori",
+            rs: 500,
+            date: "25/01/2023"
+        },
+        {
+            sl: 5,
+            imgSor: Sohrab,
+            name: "Sohrab Alam",
+            rs: 800,
+            date: "25/01/2023"
+        },
+        {
+            sl: 5,
+            imgSor: Guddu,
+            name: "Nisar Ahmad Noor",
+            rs: 1100,
+            date: "25/01/2023"
+        },
     ];
 
     const onMouseEnterPause = () =>{
@@ -57,20 +80,11 @@ const RecentDonner = () => {
                     const {name, rs, date, imgSor} = val;
                     return(
                         <div className='card shadow-lg ms-2 boxes p-2' key={ind} style={{width: "10rem", margin: "0 auto"}}>
-                            {
-                                imgSor === "" ?
-                                <img style={{
-                                        width: "70px",
-                                        borderRadius: "20px",
-                                        margin: "0 auto"
-                                     }} loading='lazy' className="card-img-top" src={demo} alt="img" />
-                                :
-                                <img style={{
-                                        width: "70px",
-                                        borderRadius: "20px",
-                                        margin: "0 auto"
-                                    }} loading='lazy' className="card-img-top" src={imgSor} alt="img" />
-                            }
+                            <img style={{
+                                    width: "70px",
+                                    borderRadius: "20px",
+                                    margin: "0 auto"
+                                }} loading='lazy' className="card-img-top" src={imgSor} alt="img" />
                             <div>
                                 { name === "" ? "":
                                     <h6 style={{marginTop: "5px", color: "#4F0341"}}>{name}</h6>

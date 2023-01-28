@@ -13,6 +13,9 @@ import img9 from "../img/gallery/9.jfif";
 import img10 from "../img/gallery/10.jfif";
 import img11 from "../img/gallery/11.jfif";
 import img12 from "../img/gallery/12.jfif";
+import img13 from "../img/jan2623/1.jfif";
+import img14 from "../img/gallery/13.jfif"
+import img15 from "../img/gallery/14.jpg"
 import VideoPlay from './VideoPlay';
 
 
@@ -66,6 +69,18 @@ const Gallery = () => {
     {
       id: 12,
       imgSrc: img12
+    },
+    {
+      id: 13,
+      imgSrc: img13
+    },
+    {
+      id: 14,
+      imgSrc: img14
+    },
+    {
+      id: 15,
+      imgSrc: img15
     },
   ]
   // console.log(data[0].imgSrc);
