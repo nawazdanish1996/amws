@@ -19,6 +19,7 @@ import visitedSound from "./sound/visitorSound.mpeg";
 import CounterUp from './components/CounterUp';
 import WayToGive from './components/WayToGive';
 import SpinnerLoader from './components/SpinnerLoader';
+import Faq from "./components/Faq";
 // import AdvOne from "./components/Adv1";
 // import AdvTwo from "./components/Adv2";
 
@@ -54,6 +55,7 @@ function App() {
           <WayToGive />
           <Certifications />
           <MeetTheTeam />
+          <Faq />
           <ContactUs />
           <CounterUp />
           <Footer />
