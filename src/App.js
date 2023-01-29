@@ -1,27 +1,24 @@
 import './App.css';
-import React, {useEffect, useState} from "react";
-import Footer from './components/Footer';
+import React, {useEffect, useState, lazy, Suspense} from "react";
 import NavBars from './components/NavBars';
-// import RedirectButton from './components/RedirectButton';
-import ImgSlider from "./components/ImgSlider";
-import About from './components/About';
-import OurMission from './components/OurMission';
-import ContactUs from "./components/ContactUs";
-import Gallery from './components/Gallery';
-import SocialMedia from './components/SocialMedia';
-// import Popup from './components/Popup';
-
-import MeetTheTeam from './components/MeetTheTeam';
-import Certifications from './components/Certifications';
-import RecentDonner from './components/RecentDonner';
 import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
-import CounterUp from './components/CounterUp';
-import WayToGive from './components/WayToGive';
+// import RedirectButton from './components/RedirectButton';
+// import Popup from './components/Popup';
 import SpinnerLoader from './components/SpinnerLoader';
-import Faq from "./components/Faq";
-// import AdvOne from "./components/Adv1";
-// import AdvTwo from "./components/Adv2";
+const Footer  = lazy(()=> import("./components/Footer"));
+const Faq  = lazy(()=> import("./components/Faq"));
+const ImgSlider  = lazy(()=> import("./components/ImgSlider"));
+const About  = lazy(()=> import("./components/About"));
+const OurMission  = lazy(()=> import("./components/OurMission"));
+const ContactUs  = lazy(()=> import("./components/ContactUs"));
+const Gallery  = lazy(()=> import("./components/Gallery"));
+const SocialMedia  = lazy(()=> import("./components/SocialMedia"));
+const MeetTheTeam  = lazy(()=> import("./components/MeetTheTeam"));
+const Certifications  = lazy(()=> import("./components/Certifications"));
+const RecentDonner  = lazy(()=> import("./components/RecentDonner"));
+const CounterUp  = lazy(()=> import("./components/CounterUp"));
+const WayToGive  = lazy(()=> import("./components/WayToGive"));
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -43,24 +40,64 @@ function App() {
         <SpinnerLoader loading={loading} />
       :
         <div className="App">
+          <Suspense fallback={<h1>Loading...</h1>}>
           <NavBars />
+          </Suspense>
+
           {/* <Popup /> */}
+          <Suspense fallback={<h1>Loading...</h1>}>
           <ImgSlider />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <About />
-          {/* <AdvOne /> */}
-          {/* <AdvTwo /> */}
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <OurMission />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <Gallery />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <RecentDonner />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <WayToGive />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <Certifications />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <MeetTheTeam />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <Faq />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <ContactUs />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <CounterUp />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
           <Footer />
+          </Suspense>
+
           {/* <RedirectButton /> */}
+          
+          <Suspense fallback={<h1>Loading...</h1>}>
           <SocialMedia />
+          </Suspense>
         </div>
       }
     </div>

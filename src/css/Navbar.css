@@ -2,6 +2,10 @@
     animation: rot 7s linear infinite;
 }
 
+#logoOne:hover{
+    animation: none;
+}
+
 #dark{
     background-color: #4F0341;
 }
