@@ -14,7 +14,7 @@ I'm a full-stack Web developer with hands on experience in MongoDB, Express, Rea
 
 
 ## 🛠 Tech Stack Used
-- Client: React, Bootstrap, CSS
+- Client: Vite+React, Bootstrap, CSS
 
 
 ## Features

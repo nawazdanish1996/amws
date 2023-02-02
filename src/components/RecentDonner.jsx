@@ -2,31 +2,32 @@ import React, {useState, useEffect} from 'react';
 import Aos from 'aos';
 import Marquee from "react-fast-marquee";
 // Sponsors
-import Miraj from "../img/Sponsors/Meraj.jfif";
-import Samsad from "../img/Sponsors/Samsad.jfif";
+// import Miraj from "../img/Sponsors/Meraj.jfif";
+// import Samsad from "../img/Sponsors/Samsad.jfif";
 import Absar from "../img/Sponsors/Absar.jpg";
 import Arman from "../img/Sponsors/Arman.jfif"
 import Sohrab from "../img/Sponsors/Sohrab.jfif";
 import Guddu from "../img/Sponsors/Guddu.jpg";
+import Maroof from "../img/Sponsors/maroof.jpg";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
 
     const obj = [
-        {
-            sl: 1,
-            imgSor: Miraj,
-            name: "Miraj Alam",
-            rs: 1000,
-            date: "02/01/2023"
-        },
-        {
-            sl: 2,
-            imgSor: Samsad,
-            name: "Samsad Alam",
-            rs: 1700,
-            date: "07/01/2023"
-        },
+        // {
+        //     sl: 1,
+        //     imgSor: Miraj,
+        //     name: "Miraj Alam",
+        //     rs: 1000,
+        //     date: "02/01/2023"
+        // },
+        // {
+        //     sl: 2,
+        //     imgSor: Samsad,
+        //     name: "Samsad Alam",
+        //     rs: 1700,
+        //     date: "07/01/2023"
+        // },
         {
             sl: 3,
             imgSor: Absar,
@@ -54,6 +55,13 @@ const RecentDonner = () => {
             name: "Nisar Ahmad Noor",
             rs: 1100,
             date: "25/01/2023"
+        },
+        {
+            sl: 6,
+            imgSor: Maroof,
+            name: "Md Maroof Alam",
+            rs: 500,
+            date: "02/02/2023"
         },
     ];
 
