@@ -3,7 +3,7 @@ import Aos from 'aos';
 import Marquee from "react-fast-marquee";
 // Sponsors
 // import Miraj from "../img/Sponsors/Meraj.jfif";
-// import Samsad from "../img/Sponsors/Samsad.jfif";
+import Samsad from "../img/Sponsors/Samsad.jfif";
 import Absar from "../img/Sponsors/Absar.jpg";
 import Arman from "../img/Sponsors/Arman.jfif"
 import Sohrab from "../img/Sponsors/Sohrab.jfif";
