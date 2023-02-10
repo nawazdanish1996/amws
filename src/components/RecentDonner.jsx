@@ -21,13 +21,13 @@ const RecentDonner = () => {
         //     rs: 1000,
         //     date: "02/01/2023"
         // },
-        // {
-        //     sl: 2,
-        //     imgSor: Samsad,
-        //     name: "Samsad Alam",
-        //     rs: 1700,
-        //     date: "07/01/2023"
-        // },
+        {
+            sl: 2,
+            imgSor: Samsad,
+            name: "Samsad Alam",
+            rs: 1500,
+            date: "09/02/2023"
+        },
         {
             sl: 3,
             imgSor: Absar,
