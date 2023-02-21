@@ -39,8 +39,8 @@ const RecentDonner = () => {
             sl: 4,
             imgSor: Arman,
             name: "Arman D. Noori",
-            rs: 500,
-            date: "25/01/2023"
+            rs: 1000,
+            date: "21/02/2023"
         },
         {
             sl: 5,
