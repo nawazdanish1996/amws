@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Aos from 'aos';
-import "../css/Gallery.css";
+import "../css/Gallery.scss";
 import img1 from "../img/gallery/1.jfif";
 import img2 from "../img/gallery/2.jfif";
 import img3 from "../img/gallery/3.jfif";

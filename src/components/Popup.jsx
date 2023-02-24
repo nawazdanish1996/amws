@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import "../css/Popup.css";
+import "../css/Popup.scss";
 // import img1 from "../img/gallery/baner.jpg";
 
 const Popup = () => {

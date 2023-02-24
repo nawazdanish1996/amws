@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/SpinnerLoader.css";
+import "../css/SpinnerLoader.scss";
 import { 
     useTypewriter, 
     // Cursor 

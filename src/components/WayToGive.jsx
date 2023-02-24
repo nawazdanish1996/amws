@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import "../css/WayToGive.css";
+import "../css/WayToGive.scss";
 import Aos from 'aos';
 import { Modal, ModalHeader } from "reactstrap";
 import donate from "../img/donate/donate.png";

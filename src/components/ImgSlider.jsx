@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import "../css/ImgSlider.css";
+import "../css/ImgSlider.scss";
 import DonateButton from "./DonateButton";
 // import first from "../img/slider/1.jfif";
 // import second from "../img/slider/3.jfif";

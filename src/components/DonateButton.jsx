@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import "../css/DonateButton.css";
+import "../css/DonateButton.scss";
 import { Modal, ModalHeader } from "reactstrap";
 import img1 from "../img/paymentIcons/google-pay.png"
 import img2 from "../img/paymentIcons/phonepe-logo-icon.png"

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/RedirectButton.css";
+import "../css/RedirectButton.scss";
 
 function RedirectButton() {
   return (

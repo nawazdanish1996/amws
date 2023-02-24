@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import "../css/CounterUp.css";
+import "../css/CounterUp.scss";
 import Aos from 'aos';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';

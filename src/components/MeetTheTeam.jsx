@@ -7,7 +7,7 @@ import img4 from "../img/TeamMembers/4.jfif";
 import img5 from "../img/TeamMembers/5.jfif";
 import img6 from "../img/TeamMembers/6.jfif";
 import img7 from "../img/TeamMembers/7.jfif";
-import "../css/MeetTheTeam.css";
+import "../css/MeetTheTeam.scss";
 
 const MeetTheTeam = () => {
     const TeamData = [

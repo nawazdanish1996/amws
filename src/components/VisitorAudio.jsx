@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/VisitorAudio.css";
+import "../css/VisitorAudio.scss";
 import visitedSound from "../sound/sareJahanSeAchcha.mp3";
 
 

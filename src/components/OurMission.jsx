@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
-import "../css/OurMission.css";
+import "../css/OurMission.scss";
 
 const OurMission = () => {
   useEffect(() => {

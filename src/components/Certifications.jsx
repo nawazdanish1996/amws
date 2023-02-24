@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import "../css/Certifications.css";
+import "../css/Certifications.scss";
 //doc
 import reg from "../img/certificate/reg.pdf";
 import blood2021 from "../img/certificate/80g12a.pdf";

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import React, {useEffect, useState, lazy, Suspense} from "react";
 import NavBars from './components/NavBars';
 import useSound from 'use-sound';

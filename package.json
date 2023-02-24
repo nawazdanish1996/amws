@@ -24,6 +24,7 @@
     "react-slick": "^0.29.0",
     "react-spinners": "^0.13.7",
     "reactstrap": "^9.1.5",
+    "sass": "^1.58.3",
     "slick-carousel": "^1.8.1",
     "sweetalert": "^2.1.2",
     "use-sound": "^4.0.1",

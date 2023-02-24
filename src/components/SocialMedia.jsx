@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
-import "../css/SocialMedia.css";
+import "../css/SocialMedia.scss";
 import fbImg from "../img/socialMediaIcons/facebook.png";
 import waImg from "../img/socialMediaIcons/whatsapp.png";
 import ytImg from "../img/socialMediaIcons/youtube.png";
