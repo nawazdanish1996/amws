@@ -9,6 +9,7 @@ import Arman from "../img/Sponsors/Arman.jfif"
 import Sohrab from "../img/Sponsors/Sohrab.jfif";
 import Guddu from "../img/Sponsors/Guddu.jpg";
 import Maroof from "../img/Sponsors/maroof.jpg";
+import Abedullah from "../img/Sponsors/abedullah.jfif";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
@@ -39,8 +40,8 @@ const RecentDonner = () => {
             sl: 4,
             imgSor: Arman,
             name: "Arman D. Noori",
-            rs: 1000,
-            date: "21/02/2023"
+            rs: 1100,
+            date: "24/02/2023"
         },
         {
             sl: 5,
@@ -53,15 +54,22 @@ const RecentDonner = () => {
             sl: 5,
             imgSor: Guddu,
             name: "Nisar Ahmad Noor",
-            rs: 1100,
-            date: "25/01/2023"
+            rs: 500,
+            date: "24/02/2023"
         },
         {
             sl: 6,
             imgSor: Maroof,
             name: "Md Maroof Alam",
             rs: 500,
-            date: "02/02/2023"
+            date: "24/02/2023"
+        },
+        {
+            sl: 7,
+            imgSor: Abedullah,
+            name: "Md Abedullah",
+            rs: 500,
+            date: "24/02/2023"
         },
     ];
 
