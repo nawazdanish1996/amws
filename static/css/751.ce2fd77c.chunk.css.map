@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/751.ce2fd77c.chunk.css","mappings":"AAAA,YAGI,eACA,sBAFA,0CADA,UAGA,CAGJ,kBACI","sources":["css/WayToGive.scss"],"sourcesContent":["#supportImg{\r\n    width: 60px;\r\n    user-select: none;\r\n    cursor: pointer;\r\n    transition: .2s linear;\r\n}\r\n\r\n#supportImg:hover{\r\n    transform: scale(1.1);\r\n}"],"names":[],"sourceRoot":""}
