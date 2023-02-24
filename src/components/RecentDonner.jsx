@@ -10,6 +10,7 @@ import Sohrab from "../img/Sponsors/Sohrab.jfif";
 import Guddu from "../img/Sponsors/Guddu.jpg";
 import Maroof from "../img/Sponsors/maroof.jpg";
 import Abedullah from "../img/Sponsors/abedullah.jfif";
+import Sajjad from "../img/Sponsors/sajjad.jfif";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
@@ -69,6 +70,13 @@ const RecentDonner = () => {
             imgSor: Abedullah,
             name: "Md Abedullah",
             rs: 500,
+            date: "24/02/2023"
+        },
+        {
+            sl: 8,
+            imgSor: Sajjad,
+            name: "Sajid Reza",
+            rs: 200,
             date: "24/02/2023"
         },
     ];
