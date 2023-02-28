@@ -11,6 +11,7 @@ import Guddu from "../img/Sponsors/Guddu.jpg";
 import Maroof from "../img/Sponsors/maroof.jpg";
 import Abedullah from "../img/Sponsors/abedullah.jfif";
 import Sajjad from "../img/Sponsors/sajjad.jfif";
+import Faryad from "../img/Sponsors/faryad.jfif";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
@@ -79,6 +80,13 @@ const RecentDonner = () => {
             rs: 200,
             date: "24/02/2023"
         },
+        {
+            sl: 9,
+            imgSor: Faryad,
+            name: "Team Pradhan Faryad",
+            rs: 3600,
+            date: "28/02/2023"
+        },
     ];
 
     const onMouseEnterPause = () =>{
@@ -103,7 +111,7 @@ const RecentDonner = () => {
                 {obj.map((val, ind)=>{
                     const {name, rs, date, imgSor} = val;
                     return(
-                        <div className='card shadow-lg ms-2 boxes p-2' key={ind} style={{width: "10rem", margin: "0 auto"}}>
+                        <div className='card shadow-lg ms-2 boxes p-2' key={ind} style={{width: "12rem", margin: "0 auto"}}>
                             <img style={{
                                     width: "70px",
                                     borderRadius: "20px",
@@ -111,7 +119,7 @@ const RecentDonner = () => {
                                 }} loading='lazy' className="card-img-top" src={imgSor} alt="img" />
                             <div>
                                 { name === "" ? "":
-                                    <h6 style={{marginTop: "5px", color: "#4F0341"}}>{name}</h6>
+                                    <p style={{marginTop: "5px", fontWeight: "bold", color: "#4F0341"}}>{name}</p>
                                 }
                                 {rs === "" ? "" :
                                 <p style={{marginTop: "-8px", color: "black"}}>Rs. {rs}</p>
