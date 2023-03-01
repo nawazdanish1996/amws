@@ -15,7 +15,7 @@ const ContactUs  = lazy(()=> import("./components/ContactUs"));
 const Gallery  = lazy(()=> import("./components/Gallery"));
 const SocialMedia  = lazy(()=> import("./components/SocialMedia"));
 const MeetTheTeam  = lazy(()=> import("./components/MeetTheTeam"));
-const Certifications  = lazy(()=> import("./components/Certifications"));
+// const Certifications  = lazy(()=> import("./components/Certifications"));
 const RecentDonner  = lazy(()=> import("./components/RecentDonner"));
 const CounterUp  = lazy(()=> import("./components/CounterUp"));
 const WayToGive  = lazy(()=> import("./components/WayToGive"));
@@ -70,7 +70,7 @@ function App() {
           </Suspense>
 
           <Suspense fallback={<h1>Loading...</h1>}>
-          <Certifications />
+          {/* <Certifications /> */}
           </Suspense>
 
           <Suspense fallback={<h1>Loading...</h1>}>

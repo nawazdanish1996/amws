@@ -3,7 +3,7 @@ import Aos from 'aos';
 import Marquee from "react-fast-marquee";
 // Sponsors
 // import Miraj from "../img/Sponsors/Meraj.jfif";
-import Samsad from "../img/Sponsors/Samsad.jfif";
+// import Samsad from "../img/Sponsors/Samsad.jfif";
 import Absar from "../img/Sponsors/Absar.jpg";
 import Arman from "../img/Sponsors/Arman.jfif"
 import Sohrab from "../img/Sponsors/Sohrab.jfif";
@@ -12,6 +12,11 @@ import Maroof from "../img/Sponsors/maroof.jpg";
 import Abedullah from "../img/Sponsors/abedullah.jfif";
 import Sajjad from "../img/Sponsors/sajjad.jfif";
 import Faryad from "../img/Sponsors/faryad.jfif";
+import Sarfaraj from "../img/Sponsors/Sarfaraj.jfif";
+import Sarf from "../img/Sponsors/6.jfif";
+import Raja from "../img/Sponsors/raja.jfif";
+import ShafaMotors from "../img/Sponsors/ShifaMotors.jfif";
+import Rehan from "../img/Sponsors/rehaN.jfif";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
@@ -24,13 +29,13 @@ const RecentDonner = () => {
         //     rs: 1000,
         //     date: "02/01/2023"
         // },
-        {
-            sl: 2,
-            imgSor: Samsad,
-            name: "Samsad Alam",
-            rs: 1500,
-            date: "09/02/2023"
-        },
+        // {
+        //     sl: 2,
+        //     imgSor: Samsad,
+        //     name: "Samsad Alam",
+        //     rs: 1500,
+        //     date: "09/02/2023"
+        // },
         {
             sl: 3,
             imgSor: Absar,
@@ -87,6 +92,41 @@ const RecentDonner = () => {
             rs: 3600,
             date: "28/02/2023"
         },
+        {
+            sl: 10,
+            imgSor: Sarfaraj,
+            name: "Sarfaraj Alam",
+            rs: 1000,
+            date: "01/03/2023"
+        },
+        {
+            sl: 11,
+            imgSor: Sarf,
+            name: "Sarfaraj Alam",
+            rs: 500,
+            date: "01/03/2023"
+        },
+        {
+            sl: 12,
+            imgSor: Raja,
+            name: "Raja Medicine",
+            rs: 300,
+            date: "01/03/2023"
+        },
+        {
+            sl: 13,
+            imgSor: ShafaMotors,
+            name: "Shafa Motors Debiganj",
+            rs: 4000,
+            date: "01/03/2023"
+        },
+        {
+            sl: 14,
+            imgSor: Rehan,
+            name: "Rehan",
+            rs: 500,
+            date: "01/03/2023"
+        },
     ];
 
     const onMouseEnterPause = () =>{
@@ -107,7 +147,7 @@ const RecentDonner = () => {
                     </h2>
                 </div>
 
-                <Marquee play={pausePlay} pauseOnHover={onMouseEnterPause} gradient={false} speed={25} direction="left" >
+                <Marquee play={pausePlay} pauseOnHover={onMouseEnterPause} gradient={false} speed={50} direction="left" >
                 {obj.map((val, ind)=>{
                     const {name, rs, date, imgSor} = val;
                     return(
