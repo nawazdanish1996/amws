@@ -17,6 +17,11 @@ import Sarf from "../img/Sponsors/6.jfif";
 import Raja from "../img/Sponsors/raja.jfif";
 import ShafaMotors from "../img/Sponsors/ShifaMotors.jfif";
 import Rehan from "../img/Sponsors/rehaN.jfif";
+import Rizwan from "../img/Sponsors/rizwan.jfif";
+import Anwar from "../img/Sponsors/anwar.jfif";
+import Indrajit from "../img/Sponsors/indrajit.jfif";
+import Shahnawaz from "../img/Sponsors/shahnawaz.jfif";
+import Matlub from "../img/Sponsors/matlub.jfif";
 
 const RecentDonner = () => {
     const [pausePlay, setPausePlay]= useState(true);
@@ -127,6 +132,41 @@ const RecentDonner = () => {
             rs: 500,
             date: "01/03/2023"
         },
+        {
+            sl: 15,
+            imgSor: Rizwan,
+            name: "Md Rizwan",
+            rs: 500,
+            date: "02/03/2023"
+        },
+        {
+            sl: 16,
+            imgSor: Anwar,
+            name: "Md Anwar Alam",
+            rs: 1000,
+            date: "02/03/2023"
+        },
+        {
+            sl: 17,
+            imgSor: Indrajit,
+            name: "Indrajit Das SI Of School",
+            rs: 500,
+            date: "02/03/2023"
+        },
+        {
+            sl: 18,
+            imgSor: Matlub,
+            name: "Dr. Matlub",
+            rs: 200,
+            date: "02/03/2023"
+        },
+        {
+            sl: 19,
+            imgSor: Shahnawaz,
+            name: "Shahnawaz Travels",
+            rs: 300,
+            date: "02/03/2023"
+        },
     ];
 
     const onMouseEnterPause = () =>{
@@ -147,13 +187,13 @@ const RecentDonner = () => {
                     </h2>
                 </div>
 
-                <Marquee play={pausePlay} pauseOnHover={onMouseEnterPause} gradient={false} speed={50} direction="left" >
+                <Marquee play={pausePlay} pauseOnHover={onMouseEnterPause} gradient={false} speed={60} direction="left" >
                 {obj.map((val, ind)=>{
                     const {name, rs, date, imgSor} = val;
                     return(
-                        <div className='card shadow-lg ms-2 boxes p-2' key={ind} style={{width: "12rem", margin: "0 auto"}}>
+                        <div className='card shadow-lg ms-2 boxes p-2' key={ind} style={{width: "14rem", margin: "0 auto"}}>
                             <img style={{
-                                    width: "70px",
+                                    width: "100%",
                                     borderRadius: "20px",
                                     margin: "0 auto"
                                 }} loading='lazy' className="card-img-top" src={imgSor} alt="img" />
