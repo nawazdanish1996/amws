@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/629.24b7cfba.chunk.css","mappings":"AAAA,YAEI,WACA","sources":["css/MeetTheTeam.scss"],"sourcesContent":["#team .card{\r\n    /* background-color: rgb(233, 41, 140); */\r\n    color: white;\r\n    font-family: cursive;\r\n}"],"names":[],"sourceRoot":""}
