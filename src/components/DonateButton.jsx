@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import "../css/DonateButton.scss";
 import { Modal, ModalHeader } from "reactstrap";
 import img1 from "../img/paymentIcons/google-pay.png"
@@ -10,6 +10,14 @@ import barCode from "../img/barcode.jfif"
 
 const DonateButton = () => {
     const [modal, setModal] = useState(false);
+
+    useEffect(()=>{
+        if(modal === true){
+            document.title = "Donate Now"
+        }else{
+            document.title = "Goalpokher Al-Madad Welfare Society - NGO - Goalpokher, Uttar Dinajpur, almadad welfare society";
+        }
+    })
     
   return (
     <div id='donate-button' style={{zIndex: 999}}>
