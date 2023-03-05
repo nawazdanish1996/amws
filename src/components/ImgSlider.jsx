@@ -29,11 +29,11 @@ const ImgSlider = () => {
         <div className="row mt-md-5 mb-md-5">
             <div className="col-md-4 mt-md-5 mb-3">
                 <p className="p-2" id="text">
-                    Blood Donation Camp <br />
+                    {/* Blood Donation Camp <br />
                     Venue: Lodhan High School Field <br />
                     Date: 4th March 2023 <br />
-                    Time: 10am to 4pm
-                    {/* We can't help everyone but, everyone can help someone. */}
+                    Time: 10am to 4pm */}
+                    We can't help everyone but, everyone can help someone.
                 </p>
                 {/* <p className='p-3' id="text">Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p> */}
             </div>

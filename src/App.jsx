@@ -6,6 +6,7 @@ import visitedSound from "./sound/visitorSound.mpeg";
 // import RedirectButton from './components/RedirectButton';
 // import Popup from './components/Popup';
 import SpinnerLoader from './components/SpinnerLoader';
+const BloodDonationCamp = lazy(()=> import("./components/BloodDonationCamp"));
 const Footer  = lazy(()=> import("./components/Footer"));
 const Faq  = lazy(()=> import("./components/Faq"));
 const ImgSlider  = lazy(()=> import("./components/ImgSlider"));
@@ -59,6 +60,10 @@ function App() {
 
           <Suspense fallback={<h1>Loading...</h1>}>
           <Gallery />
+          </Suspense>
+
+          <Suspense fallback={<h1>Loading...</h1>}>
+            <BloodDonationCamp />
           </Suspense>
 
           <Suspense fallback={<h1>Loading...</h1>}>

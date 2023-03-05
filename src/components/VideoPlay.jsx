@@ -17,11 +17,12 @@ const VideoPlay = () => {
         },
         {
             link: "https://youtu.be/kmEkybTKrMg"
-        }
+        },
+        {link: 'https://youtu.be/wNktF_QBtr4'},
     ];
 
   return (
-    <div>
+    <div setyle={{width: '100%', height: '100%'}}>
         <div className="container mt-5 mb-5">
             <div className="row">
                     {linkData.map((val, ind)=>{

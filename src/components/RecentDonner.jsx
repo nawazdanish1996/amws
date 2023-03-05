@@ -12,7 +12,7 @@ import Maroof from "../img/Sponsors/maroof.jpg";
 import Abedullah from "../img/Sponsors/abedullah.jfif";
 import Sajjad from "../img/Sponsors/sajjad.jfif";
 import Faryad from "../img/Sponsors/faryad.jfif";
-import Sarfaraj from "../img/Sponsors/Sarfaraj.jfif";
+// import Sarfaraj from "../img/Sponsors/Sarfaraj.jfif";
 import Sarf from "../img/Sponsors/6.jfif";
 import Raja from "../img/Sponsors/raja.jfif";
 import ShafaMotors from "../img/Sponsors/ShifaMotors.jfif";
@@ -97,13 +97,13 @@ const RecentDonner = () => {
             rs: 3600,
             date: "28/02/2023"
         },
-        {
-            sl: 10,
-            imgSor: Sarfaraj,
-            name: "Sarfaraj Alam",
-            rs: 1000,
-            date: "01/03/2023"
-        },
+        // {
+        //     sl: 10,
+        //     imgSor: Sarfaraj,
+        //     name: "Sarfaraj Alam",
+        //     rs: 1000,
+        //     date: "01/03/2023"
+        // },
         {
             sl: 11,
             imgSor: Sarf,

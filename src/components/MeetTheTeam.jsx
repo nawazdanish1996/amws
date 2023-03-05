@@ -7,7 +7,7 @@ import img4 from "../img/TeamMembers/4.jfif";
 import img5 from "../img/TeamMembers/5.jfif";
 import img6 from "../img/TeamMembers/6.jfif";
 import img7 from "../img/TeamMembers/7.1.jfif";
-import img8 from "../img/TeamMembers/8.jfif";
+// import img8 from "../img/TeamMembers/8.jfif";
 import "../css/MeetTheTeam.scss";
 
 const MeetTheTeam = () => {
@@ -50,16 +50,10 @@ const MeetTheTeam = () => {
         },
         {
             sl: 7,
-            name: "Deepak Kumar",
+            name: "Deepak Kr. Singh",
             imgSrc: img7,
             post: "Program Associate-I"
-        },
-        {
-            sl: 8,
-            name: "Sarfaraj Alam",
-            imgSrc: img8,
-            post: "Program Associate-II"
-        },
+        }
     ];
 
     useEffect(()=>{
