@@ -1,14 +1,14 @@
 import './App.scss';
-import React, {useEffect, useState, lazy, Suspense} from "react";
+import React, {useEffect, lazy, Suspense} from "react";
 import NavBars from './components/NavBars';
 import useSound from 'use-sound';
 import visitedSound from "./sound/visitorSound.mpeg";
 // import RedirectButton from './components/RedirectButton';
 // import Popup from './components/Popup';
-import SpinnerLoader from './components/SpinnerLoader';
+// import SpinnerLoader from './components/SpinnerLoader';
 const BloodDonationCamp = lazy(()=> import("./components/BloodDonationCamp"));
 const Footer  = lazy(()=> import("./components/Footer"));
-const Faq  = lazy(()=> import("./components/Faq"));
+// const Faq  = lazy(()=> import("./components/Faq"));
 const ImgSlider  = lazy(()=> import("./components/ImgSlider"));
 const About  = lazy(()=> import("./components/About"));
 const OurMission  = lazy(()=> import("./components/OurMission"));
@@ -22,13 +22,13 @@ const CounterUp  = lazy(()=> import("./components/CounterUp"));
 const WayToGive  = lazy(()=> import("./components/WayToGive"));
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const [plays] = useSound(visitedSound);
 
   useEffect(()=>{
-    setLoading(true);
+    // setLoading(true);
     setTimeout(()=>{
-    setLoading(false)
+    // setLoading(false)
   }, 10000);
 
     return plays();
@@ -36,10 +36,10 @@ function App() {
 
   return (
     <div>
-      {
+      {/* {
         loading ?
         <SpinnerLoader loading={loading} />
-      :
+      : */}
         <div className="App">
           <Suspense fallback={<h1>Loading...</h1>}>
           <NavBars />
@@ -83,7 +83,7 @@ function App() {
           </Suspense>
 
           <Suspense fallback={<h1>Loading...</h1>}>
-          <Faq />
+          {/* <Faq /> */}
           </Suspense>
 
           <Suspense fallback={<h1>Loading...</h1>}>
@@ -104,7 +104,7 @@ function App() {
           <SocialMedia />
           </Suspense>
         </div>
-      }
+      {/* } */}
     </div>
   );
 }
