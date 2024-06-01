@@ -3,18 +3,22 @@ import Aos from 'aos';
 import img1 from "../img/TeamMembers/1.jfif";
 import img2 from "../img/TeamMembers/2.jpg";
 import img3 from "../img/TeamMembers/3.jpg";
-import img4 from "../img/TeamMembers/4.jfif";
 import img5 from "../img/TeamMembers/5.jfif";
 import img6 from "../img/TeamMembers/6.jfif";
 import img7 from "../img/TeamMembers/7.1.jfif";
-// import img8 from "../img/TeamMembers/8.jfif";
 import "../css/MeetTheTeam.scss";
 
 const MeetTheTeam = () => {
     const TeamData = [
         {
+            sl: 0,
+            name: "Nawaz Danish",
+            imgSrc: img3,
+            post: ""
+        },
+        {
             sl: 1,
-            name: "Md. Zeeshan Ahmad",
+            name: "Md Zeeshan Ahmad",
             imgSrc: img1,
             post: "President"
         },
@@ -26,30 +30,18 @@ const MeetTheTeam = () => {
         },
         {
             sl: 3,
-            name: "Nisar Ahmad Noor",
-            imgSrc: img3,
-            post: "Secretary"
-        },
-        {
-            sl: 4,
-            name: "Arman Danish Noori",
-            imgSrc: img4,
-            post: "Assit. Secretary"
-        },
-        {
-            sl: 5,
             name: "Md. Maroof Alam",
             imgSrc: img5,
             post: "Vice-President"
         },
         {
-            sl: 6,
+            sl: 4,
             name: "Sarfaraj Alam",
             imgSrc: img6,
             post: "Co-Ordinator"
         },
         {
-            sl: 7,
+            sl: 5,
             name: "Deepak Kr. Singh",
             imgSrc: img7,
             post: "Program Associate-I"
