@@ -21,10 +21,10 @@ function Footer() {
 
               <small>Developed By: &nbsp;
                 <a className='text-decoration-none' href="https://www.facebook.com/developerHost/" target="blank">Nawaz Danish</a>
-                &nbsp;
+                {/* &nbsp;
                 ||
                 &nbsp;
-                <a className='text-decoration-none fs-6' href="https://www.linkedin.com/in/nawazdanish/" target="blank">Linkedin</a>
+                <a className='text-decoration-none fs-6' href="https://www.linkedin.com/in/nawazdanish/" target="blank">Linkedin</a> */}
               </small>
 
           </div>
