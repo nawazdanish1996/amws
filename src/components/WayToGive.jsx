@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import "../css/WayToGive.scss";
 import Aos from 'aos';
-import { Modal, ModalHeader } from "reactstrap";
+// import { Modal, ModalHeader } from "reactstrap";
 import donate from "../img/donate/donate.png";
 import support from "../img/donate/support.png";
 import img1 from "../img/paymentIcons/google-pay.png"
@@ -12,7 +12,7 @@ import barCode from "../img/barcode.jfif"
 
 
 const WayToGive = () => {
-    const [modal, setModal] = useState(false);
+    // const [modal, setModal] = useState(false);
 
     useEffect(()=>{
         Aos.init({duration: 2000});
@@ -37,7 +37,8 @@ const WayToGive = () => {
                         alt="Donate"
                         loading='lazy'
                         id="supportImg"
-                        onClick={() => setModal(true)} />
+                        // onClick={() => setModal(true)}
+                        />
                     <h4 className='m-2'>Donate Fund</h4>
                     <p style={{textAlign: "justify"}}>Unrestricted gifts to the Fund have an immediate impact. Funds are applied where they are needed most.</p>
                 </div>
@@ -48,13 +49,14 @@ const WayToGive = () => {
                         alt="support"
                         loading='lazy'
                         id="supportImg"
-                        onClick={() => setModal(true)} />
+                        // onClick={() => setModal(true)}
+                        />
                     <h4 className='m-2'>Honor Someone Special</h4>
                     <p style={{textAlign: "justify"}}>Remember a loved one, express gratitude to a caregiver, or celebrate a special occasion. We will notify the family or individuals being honored of your thoughtful generosity.</p>
                 </div>
 
-            <Modal isOpen={modal} toggle={() => setModal(!modal)}>
-            <ModalHeader toggle={() => setModal(!modal)}>
+            {/* <Modal isOpen={modal} toggle={() => setModal(!modal)}>
+            <ModalHeader toggle={() => setModal(!modal)}> */}
                 <div style={{textAlign: "center"}}>
                     <p style={{color: "green"}}>Goalpokher Al Madad Welfare Society</p>
                     <div>
@@ -79,8 +81,8 @@ const WayToGive = () => {
                         <small style={{color: "black"}}>Branch Name: ISLAMPUR</small>
                     </div>
                 </div>
-            </ModalHeader>
-            </Modal>
+            {/* </ModalHeader>
+            </Modal> */}
 
             </div>
         </div>

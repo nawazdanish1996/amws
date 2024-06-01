@@ -5,7 +5,7 @@ import img1 from "../img/paymentIcons/google-pay.png"
 import img2 from "../img/paymentIcons/phonepe-logo-icon.png"
 import img3 from "../img/paymentIcons/paytm-icon.png"
 import img4 from "../img/paymentIcons/upi.png"
-import barCode from "../img/barcode.jfif"
+import barCode from "../img/bcode.jpg"
 
 
 const DonateButton = () => {
@@ -38,20 +38,20 @@ const DonateButton = () => {
                        <img style={{width: "40px", marginLeft: "10px"}} src={img3} alt="" />
                        <img style={{width: "40px", marginLeft: "10px"}} src={img4} alt="" />
                     </div>
-                    <p id="upi" style={{color: "black", marginTop: "-2px"}}>UPI ID: goalpokheralmadadwel.62402634@hdfcbank</p>
+                    <p id="upi" style={{color: "black", marginTop: "-2px"}}>UPI ID: almadadwelfaresociety@sbi</p>
                     <img style={{width: "50%", marginTop: "-10px"}} loading='lazy' src={barCode} alt="BarCode" />
                     <br />
                     <br />
                     <div className="bankDetails">
-                        <small style={{color: "green"}}>HDFC Bank Account Details</small>
+                        <small style={{color: "green"}}>SBI Bank Account Details</small>
                         <br />
                         <small style={{color: "black"}}>Name: Goalpokher Al Madad Welfare Society</small>
                         <br />
-                        <small style={{color: "black"}}>Bank Account No: 50200055378172</small>
+                        <small style={{color: "black"}}>Bank Account No: 42303666066</small>
                         <br />
-                        <small style={{color: "black"}}>IFSC : HDFC0002747</small>
+                        <small style={{color: "black"}}>IFSC : SBIN0007713</small>
                         <br />
-                        <small style={{color: "black"}}>Branch Name: ISLAMPUR</small>
+                        <small style={{color: "black"}}>Branch Name: LODHAN VILLAGE BRANCH</small>
                     </div>
                 </div>
             </ModalHeader>
