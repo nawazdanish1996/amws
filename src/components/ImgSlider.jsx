@@ -43,7 +43,7 @@ const ImgSlider = () => {
                     <h4 className='text-white text-decoration-underline' style={{fontFamily: "cursive"}}>Helpline Numbers</h4>
                     <p className='text-info fw-bold ' style={{marginTop: "0px"}}>+91-9614416523</p>
                     <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-6296863789</p>
-                    <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p>
+                    {/* <p className='text-info fw-bold ' style={{marginTop: "-6px"}}>+91-8617338027</p> */}
                 </div>
             </div>
         </div>
