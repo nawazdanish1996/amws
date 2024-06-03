@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aaa5b158.css",
-    "main.js": "/static/js/main.7abb2354.js",
+    "main.js": "/static/js/main.0378d7a2.js",
     "static/css/539.ea2ae755.chunk.css": "/static/css/539.ea2ae755.chunk.css",
     "static/js/539.a0a84b51.chunk.js": "/static/js/539.a0a84b51.chunk.js",
     "static/js/642.53b0c848.chunk.js": "/static/js/642.53b0c848.chunk.js",
@@ -16,8 +16,8 @@
     "static/js/887.bd691649.chunk.js": "/static/js/887.bd691649.chunk.js",
     "static/css/565.ce44dec6.chunk.css": "/static/css/565.ce44dec6.chunk.css",
     "static/js/565.4c94b660.chunk.js": "/static/js/565.4c94b660.chunk.js",
-    "static/css/757.ac63f000.chunk.css": "/static/css/757.ac63f000.chunk.css",
-    "static/js/757.6c74b90d.chunk.js": "/static/js/757.6c74b90d.chunk.js",
+    "static/css/875.e9711bcf.chunk.css": "/static/css/875.e9711bcf.chunk.css",
+    "static/js/875.0c1d279b.chunk.js": "/static/js/875.0c1d279b.chunk.js",
     "static/js/85.d2ef4c04.chunk.js": "/static/js/85.d2ef4c04.chunk.js",
     "static/css/711.0f8756f6.chunk.css": "/static/css/711.0f8756f6.chunk.css",
     "static/js/711.da2d47cf.chunk.js": "/static/js/711.da2d47cf.chunk.js",
@@ -31,7 +31,6 @@
     "static/media/Absar.jpg": "/static/media/Absar.36ab9f088912e8217a3f.jpg",
     "static/media/matlub.jfif": "/static/media/matlub.3103060a70a4b23911c4.jfif",
     "static/media/ShifaMotors.jfif": "/static/media/ShifaMotors.7696e4e52316e60ac52e.jfif",
-    "static/media/7.1.jfif": "/static/media/7.1.47dd9e6fefa182c591a7.jfif",
     "static/media/sajjad.jfif": "/static/media/sajjad.27574c5d7e687e55a4a9.jfif",
     "static/media/maroof.jpg": "/static/media/maroof.2185022533686a97b031.jpg",
     "static/media/rehaN.jfif": "/static/media/rehaN.a907a96b25e968e56caf.jfif",
@@ -62,9 +61,10 @@
     "static/media/7.jfif": "/static/media/7.bb3b10b03f334c1cfd6c.jfif",
     "static/media/2.jfif": "/static/media/2.32479be43d33e2096e76.jfif",
     "static/media/9.jfif": "/static/media/9.45122fd8bad5238f99ab.jfif",
+    "static/media/shahnawaz.jpg": "/static/media/shahnawaz.4a57f453f10bad3829a5.jpg",
     "static/media/14.jpg": "/static/media/14.a09647e3e3c43ab77521.jpg",
-    "static/media/3.jpg": "/static/media/3.15fa72c8708dd1dece72.jpg",
     "static/media/upi.png": "/static/media/upi.2262dbdb6b1449fc0a76.png",
+    "static/media/aslam.jpeg": "/static/media/aslam.50539ea27c925429d786.jpeg",
     "static/media/clear_sound.mp3": "/static/media/clear_sound.6add10e38a72cac0d9e8.mp3",
     "static/media/whatsapp.png": "/static/media/whatsapp.d026940870fb334920b7.png",
     "static/media/socialMediaSound.mp3": "/static/media/socialMediaSound.c0af2dccd7411c4f06d2.mp3",
@@ -80,7 +80,7 @@
     "static/media/clickSound.mp3": "/static/media/clickSound.a8f61448426f23c99ed6.mp3",
     "index.html": "/index.html",
     "main.aaa5b158.css.map": "/static/css/main.aaa5b158.css.map",
-    "main.7abb2354.js.map": "/static/js/main.7abb2354.js.map",
+    "main.0378d7a2.js.map": "/static/js/main.0378d7a2.js.map",
     "539.ea2ae755.chunk.css.map": "/static/css/539.ea2ae755.chunk.css.map",
     "539.a0a84b51.chunk.js.map": "/static/js/539.a0a84b51.chunk.js.map",
     "642.53b0c848.chunk.js.map": "/static/js/642.53b0c848.chunk.js.map",
@@ -95,8 +95,8 @@
     "887.bd691649.chunk.js.map": "/static/js/887.bd691649.chunk.js.map",
     "565.ce44dec6.chunk.css.map": "/static/css/565.ce44dec6.chunk.css.map",
     "565.4c94b660.chunk.js.map": "/static/js/565.4c94b660.chunk.js.map",
-    "757.ac63f000.chunk.css.map": "/static/css/757.ac63f000.chunk.css.map",
-    "757.6c74b90d.chunk.js.map": "/static/js/757.6c74b90d.chunk.js.map",
+    "875.e9711bcf.chunk.css.map": "/static/css/875.e9711bcf.chunk.css.map",
+    "875.0c1d279b.chunk.js.map": "/static/js/875.0c1d279b.chunk.js.map",
     "85.d2ef4c04.chunk.js.map": "/static/js/85.d2ef4c04.chunk.js.map",
     "711.0f8756f6.chunk.css.map": "/static/css/711.0f8756f6.chunk.css.map",
     "711.da2d47cf.chunk.js.map": "/static/js/711.da2d47cf.chunk.js.map",
@@ -110,6 +110,6 @@
   },
   "entrypoints": [
     "static/css/main.aaa5b158.css",
-    "static/js/main.7abb2354.js"
+    "static/js/main.0378d7a2.js"
   ]
 }
