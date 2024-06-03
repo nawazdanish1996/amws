@@ -2,23 +2,16 @@ import React, {useEffect} from 'react';
 import Aos from 'aos';
 import img1 from "../img/TeamMembers/1.jfif";
 import img2 from "../img/TeamMembers/2.jpg";
-import img3 from "../img/TeamMembers/3.jpg";
 import img5 from "../img/TeamMembers/5.jfif";
-import img6 from "../img/TeamMembers/6.jfif";
-import img7 from "../img/TeamMembers/7.1.jfif";
+import img6 from "../img/TeamMembers/aslam.jpeg";
+import img7 from "../img/TeamMembers/shahnawaz.jpg";
 import "../css/MeetTheTeam.scss";
 
 const MeetTheTeam = () => {
     const TeamData = [
         {
-            sl: 0,
-            name: "Nawaz Danish",
-            imgSrc: img3,
-            post: ""
-        },
-        {
             sl: 1,
-            name: "Md Zeeshan Ahmad",
+            name: "Md Zeeshan A.",
             imgSrc: img1,
             post: "President"
         },
@@ -36,15 +29,15 @@ const MeetTheTeam = () => {
         },
         {
             sl: 4,
-            name: "Sarfaraj Alam",
+            name: "Md Aslam",
             imgSrc: img6,
             post: "Co-Ordinator"
         },
         {
             sl: 5,
-            name: "Deepak Kr. Singh",
+            name: "Md Shahnawaz",
             imgSrc: img7,
-            post: "Program Associate-I"
+            post: "Prog. Co-Ordinator"
         }
     ];
 
