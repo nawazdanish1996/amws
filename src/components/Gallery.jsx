@@ -82,6 +82,9 @@ const Gallery = () => {
       id: 15,
       imgSrc: img15
     },
+    {
+      id: 16
+    }
   ]
   // console.log(data[0].imgSrc);
   const myObj = {

@@ -51,7 +51,7 @@ const MeetTheTeam = () => {
             sl: 6,
             name: "Md Shahnawaz",
             imgSrc: img7,
-            post: "Prog. Co-Ordinator"
+            post: "Co-Ordinator"
         }
     ];
 

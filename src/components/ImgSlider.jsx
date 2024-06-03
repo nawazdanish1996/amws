@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import Aos from 'aos';
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "../css/ImgSlider.scss";
 import DonateButton from "./DonateButton";
 // import first from "../img/slider/1.jfif";
@@ -11,6 +12,11 @@ import TopMarquee from './TopMarquee';
 // import VisitorAudio from "./VisitorAudio";
 
 const ImgSlider = () => {
+
+    const [text] = useTypewriter({
+        words: ["We can't help everyone but everyone can help someone."],
+        loop: 0
+    });
 
     useEffect(()=>{
         Aos.init({duration: 2000});
@@ -33,7 +39,9 @@ const ImgSlider = () => {
                     Venue: Lodhan High School Field <br />
                     Date: 4th March 2023 <br />
                     Time: 10am to 4pm */}
-                    We can't help everyone but, everyone can help someone.
+                    {text}
+                    <Cursor cursorColor="green" />
+                    {/* We can't help everyone but, everyone can help someone. */}
                 </p>
                 {/* <p className='p-3' id="text">Our smallest contribution makes a big difference to the needy people We count on the generosity of people like you to be able to create real change for India.</p> */}
             </div>
