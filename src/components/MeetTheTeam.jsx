@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import Aos from 'aos';
 import img1 from "../img/TeamMembers/1.jfif";
 import img2 from "../img/TeamMembers/2.jpg";
-import img3 from "../img/TeamMembers/3.jpg";
+// import img3 from "../img/TeamMembers/3.jpg";
 import img5 from "../img/TeamMembers/5.jpg";
 import img6 from "../img/TeamMembers/aslam.jpeg";
 import img7 from "../img/TeamMembers/shahnawaz.jpg";
@@ -16,12 +16,6 @@ const MeetTheTeam = () => {
             name: "Md. Nurul Huda",
             imgSrc: img2,
             post: "Treasurer"
-        },
-        {
-            sl: 0,
-            name: "Nawaz Danish",
-            imgSrc: img3,
-            post: "Director"
         },
         {
             sl: 2,
