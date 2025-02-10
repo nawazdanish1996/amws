@@ -20,7 +20,7 @@ function Footer() {
               <br />
 
               <small>Developed By: &nbsp;
-                <a className='text-decoration-none' href="https://www.facebook.com/developerHost/" target="blank">Nawaz Danish</a>
+                <a className='text-decoration-none' href="https://www.facebook.com/61570023162545/" target="blank">Nawaz Danish</a>
                 {/* &nbsp;
                 ||
                 &nbsp;
